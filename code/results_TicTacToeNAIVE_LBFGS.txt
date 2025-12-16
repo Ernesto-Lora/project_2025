@@ -1,14 +1,14 @@
 Gradient-Based Results for datasets/tic-tac-toe.csv using LBFGSOptimizerWrapper
 ------------------------------------------------
-1 fold 75.00%
-2 fold 70.83%
-3 fold 76.04%
-4 fold 70.83%
-5 fold 82.29%
-6 fold 65.62%
-7 fold 59.38%
-8 fold 53.12%
-9 fold 63.16%
-10 fold 72.63%
+1 fold 96.88%
+2 fold 96.88%
+3 fold 100.00%
+4 fold 97.92%
+5 fold 97.92%
+6 fold 97.92%
+7 fold 98.96%
+8 fold 98.96%
+9 fold 98.95%
+10 fold 98.95%
 ------------------------------------------------
-average 68.89%
+average 98.33%

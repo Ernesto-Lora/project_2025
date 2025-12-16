@@ -1,0 +1,14 @@
+Results for datasets/pimaDisc.csv using HookeJeevesOptimizer
+------------------------------------------------
+1 fold 80.52%
+2 fold 83.12%
+3 fold 74.03%
+4 fold 66.23%
+5 fold 74.03%
+6 fold 76.62%
+7 fold 83.12%
+8 fold 80.52%
+9 fold 75.00%
+10 fold 75.00%
+------------------------------------------------
+average 76.82%

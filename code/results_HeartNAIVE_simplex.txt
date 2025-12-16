@@ -1,0 +1,14 @@
+Results for datasets/heartDisc.csv using NelderMeadOptimizer
+------------------------------------------------
+1 fold 77.78%
+2 fold 96.30%
+3 fold 77.78%
+4 fold 70.37%
+5 fold 85.19%
+6 fold 85.19%
+7 fold 85.19%
+8 fold 88.89%
+9 fold 85.19%
+10 fold 77.78%
+------------------------------------------------
+average 82.96%

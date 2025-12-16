@@ -1,0 +1,241 @@
+Scheduled 3 experiments.
+
+--- Starting Experiment: TicTacToe - Nelder-Mead ---
+Starting 10-Fold Validation on datasets/tic-tac-toe.csv...
+Optimizer: NelderMeadOptimizer | Max Iter: 6000
+--- Starting Simplex Optimization (Dim: 152) ---
+Initial Best Score: -578.4897 (CLL)
+Initial Worst Score: -582.4064 (CLL)
+------------------------------
+------------------------------
+Optimization Finished. Best Score found: -436.2738
+1 fold 69.79%
+--- Starting Simplex Optimization (Dim: 152) ---
+Initial Best Score: -657.6739 (CLL)
+Initial Worst Score: -678.4231 (CLL)
+------------------------------
+------------------------------
+Optimization Finished. Best Score found: -470.9534
+2 fold 72.92%
+--- Starting Simplex Optimization (Dim: 152) ---
+Initial Best Score: -602.6301 (CLL)
+Initial Worst Score: -614.1690 (CLL)
+------------------------------
+------------------------------
+Optimization Finished. Best Score found: -458.5180
+3 fold 76.04%
+--- Starting Simplex Optimization (Dim: 152) ---
+Initial Best Score: -611.9380 (CLL)
+Initial Worst Score: -625.8157 (CLL)
+------------------------------
+------------------------------
+Optimization Finished. Best Score found: -460.4029
+4 fold 70.83%
+--- Starting Simplex Optimization (Dim: 152) ---
+Initial Best Score: -572.3627 (CLL)
+Initial Worst Score: -581.0053 (CLL)
+------------------------------
+------------------------------
+Optimization Finished. Best Score found: -447.7068
+5 fold 79.17%
+--- Starting Simplex Optimization (Dim: 152) ---
+Initial Best Score: -569.3945 (CLL)
+Initial Worst Score: -580.1255 (CLL)
+------------------------------
+------------------------------
+Optimization Finished. Best Score found: -445.7996
+6 fold 72.92%
+--- Starting Simplex Optimization (Dim: 152) ---
+Initial Best Score: -612.3440 (CLL)
+Initial Worst Score: -627.5991 (CLL)
+------------------------------
+------------------------------
+Optimization Finished. Best Score found: -463.2769
+7 fold 62.50%
+--- Starting Simplex Optimization (Dim: 152) ---
+Initial Best Score: -601.6592 (CLL)
+Initial Worst Score: -614.8617 (CLL)
+------------------------------
+------------------------------
+Optimization Finished. Best Score found: -457.9020
+8 fold 56.25%
+--- Starting Simplex Optimization (Dim: 152) ---
+Initial Best Score: -578.0797 (CLL)
+Initial Worst Score: -588.4665 (CLL)
+------------------------------
+------------------------------
+Optimization Finished. Best Score found: -448.3568
+9 fold 72.63%
+--- Starting Simplex Optimization (Dim: 152) ---
+Initial Best Score: -606.5957 (CLL)
+Initial Worst Score: -621.3068 (CLL)
+------------------------------
+------------------------------
+Optimization Finished. Best Score found: -466.2783
+10 fold 72.63%
+
+average 70.57%
+Successfully finished TicTacToe - Nelder-Mead.
+Saved to: results_TicTacToeTAN_simplex.txt
+Elapsed time: 47.50 minutes
+
+--- Starting Experiment: TicTacToe - Hooke-Jeeves ---
+Starting 10-Fold Validation on datasets/tic-tac-toe.csv...
+Optimizer: HookeJeevesOptimizer | Max Iter: 17
+--- Starting Hooke-Jeeves Optimization (Dim: 152) ---
+Initial Score: -580.2002 (CLL)
+------------------------------
+------------------------------
+Optimization Finished. Best Score found: -7.0136
+1 fold 100.00%
+--- Starting Hooke-Jeeves Optimization (Dim: 152) ---
+Initial Score: -667.7957 (CLL)
+------------------------------
+------------------------------
+Optimization Finished. Best Score found: -9.0098
+2 fold 97.92%
+--- Starting Hooke-Jeeves Optimization (Dim: 152) ---
+Initial Score: -608.1390 (CLL)
+------------------------------
+------------------------------
+Optimization Finished. Best Score found: -8.5770
+3 fold 98.96%
+--- Starting Hooke-Jeeves Optimization (Dim: 152) ---
+Initial Score: -618.6177 (CLL)
+------------------------------
+------------------------------
+Optimization Finished. Best Score found: -8.7627
+4 fold 97.92%
+--- Starting Hooke-Jeeves Optimization (Dim: 152) ---
+Initial Score: -576.4236 (CLL)
+------------------------------
+------------------------------
+Optimization Finished. Best Score found: -9.2828
+5 fold 98.96%
+--- Starting Hooke-Jeeves Optimization (Dim: 152) ---
+Initial Score: -574.4991 (CLL)
+------------------------------
+------------------------------
+Optimization Finished. Best Score found: -8.9741
+6 fold 100.00%
+--- Starting Hooke-Jeeves Optimization (Dim: 152) ---
+Initial Score: -619.7100 (CLL)
+------------------------------
+------------------------------
+Optimization Finished. Best Score found: -8.7478
+7 fold 98.96%
+--- Starting Hooke-Jeeves Optimization (Dim: 152) ---
+Initial Score: -608.0003 (CLL)
+------------------------------
+------------------------------
+Optimization Finished. Best Score found: -9.9738
+8 fold 98.96%
+--- Starting Hooke-Jeeves Optimization (Dim: 152) ---
+Initial Score: -583.0136 (CLL)
+------------------------------
+------------------------------
+Optimization Finished. Best Score found: -7.4003
+9 fold 98.95%
+--- Starting Hooke-Jeeves Optimization (Dim: 152) ---
+Initial Score: -613.6873 (CLL)
+------------------------------
+------------------------------
+Optimization Finished. Best Score found: -9.7673
+10 fold 98.95%
+
+average 98.96%
+Successfully finished TicTacToe - Hooke-Jeeves.
+Saved to: results_TicTacToeTAN_hooke.txt
+Elapsed time: 64.32 minutes
+
+--- Starting Experiment: TicTacToe - L-BFGS (Gradient) ---
+Starting 10-Fold Validation (Gradient-Based) on datasets/tic-tac-toe.csv...
+Optimizer: LBFGSOptimizerWrapper | Max Iter: 100
+--- Starting L-BFGS Optimization (Dim: 152) ---
+Initial Best Score: -580.2002 (CLL)
+------------------------------
+------------------------------
+Optimization Success!
+Total Iterations: 3
+Final Best Score: -385.0636 (CLL)
+1 fold 75.00%
+--- Starting L-BFGS Optimization (Dim: 152) ---
+Initial Best Score: -667.7957 (CLL)
+------------------------------
+------------------------------
+Optimization Success!
+Total Iterations: 2
+Final Best Score: -494.8457 (CLL)
+2 fold 70.83%
+--- Starting L-BFGS Optimization (Dim: 152) ---
+Initial Best Score: -608.1390 (CLL)
+------------------------------
+------------------------------
+Optimization Success!
+Total Iterations: 2
+Final Best Score: -480.6435 (CLL)
+3 fold 76.04%
+--- Starting L-BFGS Optimization (Dim: 152) ---
+Initial Best Score: -618.6177 (CLL)
+------------------------------
+------------------------------
+Optimization Success!
+Total Iterations: 2
+Final Best Score: -487.0665 (CLL)
+4 fold 70.83%
+--- Starting L-BFGS Optimization (Dim: 152) ---
+Initial Best Score: -576.4236 (CLL)
+------------------------------
+------------------------------
+Optimization Success!
+Total Iterations: 4
+Final Best Score: -389.8410 (CLL)
+5 fold 82.29%
+--- Starting L-BFGS Optimization (Dim: 152) ---
+Initial Best Score: -574.4991 (CLL)
+------------------------------
+------------------------------
+Optimization Success!
+Total Iterations: 1
+Final Best Score: -521.7788 (CLL)
+6 fold 65.62%
+--- Starting L-BFGS Optimization (Dim: 152) ---
+Initial Best Score: -619.7100 (CLL)
+------------------------------
+------------------------------
+Optimization Success!
+Total Iterations: 2
+Final Best Score: -488.1998 (CLL)
+7 fold 59.38%
+--- Starting L-BFGS Optimization (Dim: 152) ---
+Initial Best Score: -608.0003 (CLL)
+------------------------------
+------------------------------
+Optimization Success!
+Total Iterations: 2
+Final Best Score: -470.2509 (CLL)
+8 fold 53.12%
+--- Starting L-BFGS Optimization (Dim: 152) ---
+Initial Best Score: -583.0136 (CLL)
+------------------------------
+------------------------------
+Optimization Success!
+Total Iterations: 2
+Final Best Score: -461.6407 (CLL)
+9 fold 63.16%
+--- Starting L-BFGS Optimization (Dim: 152) ---
+Initial Best Score: -613.6873 (CLL)
+------------------------------
+------------------------------
+Optimization Success!
+Total Iterations: 2
+Final Best Score: -480.7270 (CLL)
+10 fold 72.63%
+
+average 68.89%
+Successfully finished TicTacToe - L-BFGS (Gradient).
+Saved to: results_TicTacToeTAN_LBFGS.txt
+Elapsed time: 0.07 minutes
+
+
+All scheduled experiments have been processed.

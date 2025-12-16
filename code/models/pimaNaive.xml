@@ -1,0 +1,151 @@
+<?xml version="1.0"?>
+<!DOCTYPE BIF [
+    <!ELEMENT BIF ( NETWORK )*>
+      <!ATTLIST BIF VERSION CDATA #REQUIRED>
+    <!ELEMENT NETWORK ( NAME, ( PROPERTY | VARIABLE | DEFINITION )* )>
+    <!ELEMENT NAME (#PCDATA)>
+    <!ELEMENT VARIABLE ( NAME, ( OUTCOME | PROPERTY )* ) >
+      <!ATTLIST VARIABLE TYPE (nature|decision|utility) "nature">
+    <!ELEMENT OUTCOME (#PCDATA)>
+    <!ELEMENT DEFINITION ( FOR | GIVEN | TABLE | PROPERTY )* >
+    <!ELEMENT FOR (#PCDATA)>
+    <!ELEMENT GIVEN (#PCDATA)>
+    <!ELEMENT TABLE (#PCDATA)>
+    <!ELEMENT PROPERTY (#PCDATA)>
+]>
+
+<BIF VERSION="0.3">
+<NETWORK>
+<NAME>pimaDisc-NaiveBayes</NAME>
+<VARIABLE TYPE="nature">
+    <NAME>Pregnant</NAME>
+    <OUTCOME>[0.0-6.5)</OUTCOME>
+    <OUTCOME>[6.5-17.0]</OUTCOME>
+    <PROPERTY>position = (100, 200)</PROPERTY>
+</VARIABLE>
+<VARIABLE TYPE="nature">
+    <NAME>glucose</NAME>
+    <OUTCOME>[127.5-199.0]</OUTCOME>
+    <OUTCOME>[0.0-127.5)</OUTCOME>
+    <PROPERTY>position = (200, 200)</PROPERTY>
+</VARIABLE>
+<VARIABLE TYPE="nature">
+    <NAME>Diastolic</NAME>
+    <OUTCOME>[69.0-122.0]</OUTCOME>
+    <OUTCOME>[0.0-69.0)</OUTCOME>
+    <PROPERTY>position = (300, 200)</PROPERTY>
+</VARIABLE>
+<VARIABLE TYPE="nature">
+    <NAME>Triceps</NAME>
+    <OUTCOME>[31.5-99.0]</OUTCOME>
+    <OUTCOME>[0.0-7.5)</OUTCOME>
+    <OUTCOME>[23.5-31.5)</OUTCOME>
+    <OUTCOME>[7.5-23.5)</OUTCOME>
+    <PROPERTY>position = (400, 200)</PROPERTY>
+</VARIABLE>
+<VARIABLE TYPE="nature">
+    <NAME>Hour</NAME>
+    <OUTCOME>[121.0-846.0]</OUTCOME>
+    <OUTCOME>[0.0-14.5)</OUTCOME>
+    <OUTCOME>[14.5-121.0)</OUTCOME>
+    <PROPERTY>position = (500, 200)</PROPERTY>
+</VARIABLE>
+<VARIABLE TYPE="nature">
+    <NAME>Body</NAME>
+    <OUTCOME>[27.35-67.1]</OUTCOME>
+    <OUTCOME>[0.0-27.35)</OUTCOME>
+    <PROPERTY>position = (600, 200)</PROPERTY>
+</VARIABLE>
+<VARIABLE TYPE="nature">
+    <NAME>Diabetes</NAME>
+    <OUTCOME>[0.078-0.5275000000000001)</OUTCOME>
+    <OUTCOME>[0.5275000000000001-2.42]</OUTCOME>
+    <PROPERTY>position = (700, 200)</PROPERTY>
+</VARIABLE>
+<VARIABLE TYPE="nature">
+    <NAME>Age</NAME>
+    <OUTCOME>[28.5-81.0]</OUTCOME>
+    <OUTCOME>[21.0-28.5)</OUTCOME>
+    <PROPERTY>position = (800, 200)</PROPERTY>
+</VARIABLE>
+<VARIABLE TYPE="nature">
+    <NAME>Class</NAME>
+    <OUTCOME>B</OUTCOME>
+    <OUTCOME>A</OUTCOME>
+    <PROPERTY>position = (450, 50)</PROPERTY>
+</VARIABLE>
+<DEFINITION>
+    <FOR>Class</FOR>
+    <TABLE>
+        0.349741 0.650259
+    </TABLE>
+</DEFINITION>
+<DEFINITION>
+    <FOR>Pregnant</FOR>
+    <GIVEN>Class</GIVEN>
+    <TABLE>
+        0.644444 0.850598
+        0.355556 0.149402
+    </TABLE>
+</DEFINITION>
+<DEFINITION>
+    <FOR>glucose</FOR>
+    <GIVEN>Class</GIVEN>
+    <TABLE>
+        0.648148 0.219124
+        0.351852 0.780876
+    </TABLE>
+</DEFINITION>
+<DEFINITION>
+    <FOR>Diastolic</FOR>
+    <GIVEN>Class</GIVEN>
+    <TABLE>
+        0.677778 0.535857
+        0.322222 0.464143
+    </TABLE>
+</DEFINITION>
+<DEFINITION>
+    <FOR>Triceps</FOR>
+    <GIVEN>Class</GIVEN>
+    <TABLE>
+        0.378676 0.234127
+        0.330882 0.279762
+        0.191176 0.198413
+        0.099265 0.287698
+    </TABLE>
+</DEFINITION>
+<DEFINITION>
+    <FOR>Hour</FOR>
+    <GIVEN>Class</GIVEN>
+    <TABLE>
+        0.380074 0.200795
+        0.516605 0.471173
+        0.103321 0.328032
+    </TABLE>
+</DEFINITION>
+<DEFINITION>
+    <FOR>Body</FOR>
+    <GIVEN>Class</GIVEN>
+    <TABLE>
+        0.922222 0.651394
+        0.077778 0.348606
+    </TABLE>
+</DEFINITION>
+<DEFINITION>
+    <FOR>Diabetes</FOR>
+    <GIVEN>Class</GIVEN>
+    <TABLE>
+        0.551852 0.721116
+        0.448148 0.278884
+    </TABLE>
+</DEFINITION>
+<DEFINITION>
+    <FOR>Age</FOR>
+    <GIVEN>Class</GIVEN>
+    <TABLE>
+        0.733333 0.408367
+        0.266667 0.591633
+    </TABLE>
+</DEFINITION>
+</NETWORK>
+</BIF>

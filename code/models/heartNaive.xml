@@ -1,0 +1,219 @@
+<?xml version="1.0"?>
+<!DOCTYPE BIF [
+    <!ELEMENT BIF ( NETWORK )*>
+      <!ATTLIST BIF VERSION CDATA #REQUIRED>
+    <!ELEMENT NETWORK ( NAME, ( PROPERTY | VARIABLE | DEFINITION )* )>
+    <!ELEMENT NAME (#PCDATA)>
+    <!ELEMENT VARIABLE ( NAME, ( OUTCOME | PROPERTY )* ) >
+      <!ATTLIST VARIABLE TYPE (nature|decision|utility) "nature">
+    <!ELEMENT OUTCOME (#PCDATA)>
+    <!ELEMENT DEFINITION ( FOR | GIVEN | TABLE | PROPERTY )* >
+    <!ELEMENT FOR (#PCDATA)>
+    <!ELEMENT GIVEN (#PCDATA)>
+    <!ELEMENT TABLE (#PCDATA)>
+    <!ELEMENT PROPERTY (#PCDATA)>
+]>
+
+<BIF VERSION="0.3">
+<NETWORK>
+<NAME>heartDisc-NaiveBayes</NAME>
+<VARIABLE TYPE="nature">
+    <NAME>age</NAME>
+    <OUTCOME>[54.5-77.0]</OUTCOME>
+    <OUTCOME>[29.0-54.5)</OUTCOME>
+    <PROPERTY>position = (100, 200)</PROPERTY>
+</VARIABLE>
+<VARIABLE TYPE="nature">
+    <NAME>sex</NAME>
+    <OUTCOME>[0.5-1.0]</OUTCOME>
+    <OUTCOME>[0.0-0.5)</OUTCOME>
+    <PROPERTY>position = (200, 200)</PROPERTY>
+</VARIABLE>
+<VARIABLE TYPE="nature">
+    <NAME>chest</NAME>
+    <OUTCOME>[3.5-4.0]</OUTCOME>
+    <OUTCOME>[1.0-3.5)</OUTCOME>
+    <PROPERTY>position = (300, 200)</PROPERTY>
+</VARIABLE>
+<VARIABLE TYPE="nature">
+    <NAME>preasure</NAME>
+    <OUTCOME>[107.0-143.0)</OUTCOME>
+    <OUTCOME>[143.0-200.0]</OUTCOME>
+    <OUTCOME>[100.5-107.0)</OUTCOME>
+    <OUTCOME>[94.0-100.5)</OUTCOME>
+    <PROPERTY>position = (400, 200)</PROPERTY>
+</VARIABLE>
+<VARIABLE TYPE="nature">
+    <NAME>cholestoral</NAME>
+    <OUTCOME>[245.5-564.0]</OUTCOME>
+    <OUTCOME>[126.0-245.5)</OUTCOME>
+    <PROPERTY>position = (500, 200)</PROPERTY>
+</VARIABLE>
+<VARIABLE TYPE="nature">
+    <NAME>bloodsugar</NAME>
+    <OUTCOME>[0.0-0.5)</OUTCOME>
+    <OUTCOME>[0.5-1.0]</OUTCOME>
+    <PROPERTY>position = (600, 200)</PROPERTY>
+</VARIABLE>
+<VARIABLE TYPE="nature">
+    <NAME>electro</NAME>
+    <OUTCOME>[0.5-2.0]</OUTCOME>
+    <OUTCOME>[0.0-0.5)</OUTCOME>
+    <PROPERTY>position = (700, 200)</PROPERTY>
+</VARIABLE>
+<VARIABLE TYPE="nature">
+    <NAME>heartrate</NAME>
+    <OUTCOME>[71.0-147.5)</OUTCOME>
+    <OUTCOME>[147.5-202.0]</OUTCOME>
+    <PROPERTY>position = (800, 200)</PROPERTY>
+</VARIABLE>
+<VARIABLE TYPE="nature">
+    <NAME>angina</NAME>
+    <OUTCOME>[0.0-0.5)</OUTCOME>
+    <OUTCOME>[0.5-1.0]</OUTCOME>
+    <PROPERTY>position = (900, 200)</PROPERTY>
+</VARIABLE>
+<VARIABLE TYPE="nature">
+    <NAME>oldpeak</NAME>
+    <OUTCOME>[1.7000000000000002-6.2]</OUTCOME>
+    <OUTCOME>[0.0-1.7000000000000002)</OUTCOME>
+    <PROPERTY>position = (1000, 200)</PROPERTY>
+</VARIABLE>
+<VARIABLE TYPE="nature">
+    <NAME>slope</NAME>
+    <OUTCOME>[1.5-3.0]</OUTCOME>
+    <OUTCOME>[1.0-1.5)</OUTCOME>
+    <PROPERTY>position = (1100, 200)</PROPERTY>
+</VARIABLE>
+<VARIABLE TYPE="nature">
+    <NAME>vessels</NAME>
+    <OUTCOME>[0.5-3.0]</OUTCOME>
+    <OUTCOME>[0.0-0.5)</OUTCOME>
+    <PROPERTY>position = (1200, 200)</PROPERTY>
+</VARIABLE>
+<VARIABLE TYPE="nature">
+    <NAME>thal</NAME>
+    <OUTCOME>[3.0-4.5)</OUTCOME>
+    <OUTCOME>[4.5-7.0]</OUTCOME>
+    <PROPERTY>position = (1300, 200)</PROPERTY>
+</VARIABLE>
+<VARIABLE TYPE="nature">
+    <NAME>class</NAME>
+    <OUTCOME>B</OUTCOME>
+    <OUTCOME>A</OUTCOME>
+    <PROPERTY>position = (600, 50)</PROPERTY>
+</VARIABLE>
+<DEFINITION>
+    <FOR>class</FOR>
+    <TABLE>
+        0.445255 0.554745
+    </TABLE>
+</DEFINITION>
+<DEFINITION>
+    <FOR>age</FOR>
+    <GIVEN>class</GIVEN>
+    <TABLE>
+        0.663934 0.388158
+        0.336066 0.611842
+    </TABLE>
+</DEFINITION>
+<DEFINITION>
+    <FOR>sex</FOR>
+    <GIVEN>class</GIVEN>
+    <TABLE>
+        0.827869 0.552632
+        0.172131 0.447368
+    </TABLE>
+</DEFINITION>
+<DEFINITION>
+    <FOR>chest</FOR>
+    <GIVEN>class</GIVEN>
+    <TABLE>
+        0.754098 0.256579
+        0.245902 0.743421
+    </TABLE>
+</DEFINITION>
+<DEFINITION>
+    <FOR>preasure</FOR>
+    <GIVEN>class</GIVEN>
+    <TABLE>
+        0.701613 0.753247
+        0.266129 0.155844
+        0.008065 0.058442
+        0.024194 0.032468
+    </TABLE>
+</DEFINITION>
+<DEFINITION>
+    <FOR>cholestoral</FOR>
+    <GIVEN>class</GIVEN>
+    <TABLE>
+        0.598361 0.407895
+        0.401639 0.592105
+    </TABLE>
+</DEFINITION>
+<DEFINITION>
+    <FOR>bloodsugar</FOR>
+    <GIVEN>class</GIVEN>
+    <TABLE>
+        0.852459 0.842105
+        0.147541 0.157895
+    </TABLE>
+</DEFINITION>
+<DEFINITION>
+    <FOR>electro</FOR>
+    <GIVEN>class</GIVEN>
+    <TABLE>
+        0.614754 0.434211
+        0.385246 0.565789
+    </TABLE>
+</DEFINITION>
+<DEFINITION>
+    <FOR>heartrate</FOR>
+    <GIVEN>class</GIVEN>
+    <TABLE>
+        0.631148 0.236842
+        0.368852 0.763158
+    </TABLE>
+</DEFINITION>
+<DEFINITION>
+    <FOR>angina</FOR>
+    <GIVEN>class</GIVEN>
+    <TABLE>
+        0.450820 0.842105
+        0.549180 0.157895
+    </TABLE>
+</DEFINITION>
+<DEFINITION>
+    <FOR>oldpeak</FOR>
+    <GIVEN>class</GIVEN>
+    <TABLE>
+        0.442623 0.098684
+        0.557377 0.901316
+    </TABLE>
+</DEFINITION>
+<DEFINITION>
+    <FOR>slope</FOR>
+    <GIVEN>class</GIVEN>
+    <TABLE>
+        0.729508 0.348684
+        0.270492 0.651316
+    </TABLE>
+</DEFINITION>
+<DEFINITION>
+    <FOR>vessels</FOR>
+    <GIVEN>class</GIVEN>
+    <TABLE>
+        0.663934 0.203947
+        0.336066 0.796053
+    </TABLE>
+</DEFINITION>
+<DEFINITION>
+    <FOR>thal</FOR>
+    <GIVEN>class</GIVEN>
+    <TABLE>
+        0.278689 0.789474
+        0.721311 0.210526
+    </TABLE>
+</DEFINITION>
+</NETWORK>
+</BIF>

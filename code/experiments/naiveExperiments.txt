@@ -1,0 +1,1390 @@
+Scheduled 15 experiments.
+
+--- Starting Experiment: Australian - Nelder-Mead ---
+Starting 10-Fold Validation on datasets/AustralianDisc.csv...
+Optimizer: NelderMeadOptimizer | Max Iter: 6000
+--- Starting Simplex Optimization (Dim: 60) ---
+Initial Best Score: -426.4695 (CLL)
+Initial Worst Score: -437.8572 (CLL)
+------------------------------
+CONVERGENCE ACHIEVED at Iter 1952.
+Standard Deviation of Scores (0.099952) < Tolerance (0.1).
+------------------------------
+Optimization Finished. Best Score found: -186.4121
+1 fold 85.51%
+--- Starting Simplex Optimization (Dim: 60) ---
+Initial Best Score: -457.4449 (CLL)
+Initial Worst Score: -469.2180 (CLL)
+------------------------------
+CONVERGENCE ACHIEVED at Iter 1828.
+Standard Deviation of Scores (0.099208) < Tolerance (0.1).
+------------------------------
+Optimization Finished. Best Score found: -193.4269
+2 fold 86.96%
+--- Starting Simplex Optimization (Dim: 60) ---
+Initial Best Score: -398.9445 (CLL)
+Initial Worst Score: -408.9479 (CLL)
+------------------------------
+CONVERGENCE ACHIEVED at Iter 2029.
+Standard Deviation of Scores (0.099672) < Tolerance (0.1).
+------------------------------
+Optimization Finished. Best Score found: -195.6351
+3 fold 85.51%
+--- Starting Simplex Optimization (Dim: 60) ---
+Initial Best Score: -409.1525 (CLL)
+Initial Worst Score: -419.3946 (CLL)
+------------------------------
+CONVERGENCE ACHIEVED at Iter 1954.
+Standard Deviation of Scores (0.098484) < Tolerance (0.1).
+------------------------------
+Optimization Finished. Best Score found: -191.4846
+4 fold 84.06%
+--- Starting Simplex Optimization (Dim: 60) ---
+Initial Best Score: -515.3972 (CLL)
+Initial Worst Score: -527.9622 (CLL)
+------------------------------
+CONVERGENCE ACHIEVED at Iter 1997.
+Standard Deviation of Scores (0.099378) < Tolerance (0.1).
+------------------------------
+Optimization Finished. Best Score found: -196.6189
+5 fold 88.41%
+--- Starting Simplex Optimization (Dim: 60) ---
+Initial Best Score: -416.2027 (CLL)
+Initial Worst Score: -426.6386 (CLL)
+------------------------------
+CONVERGENCE ACHIEVED at Iter 1940.
+Standard Deviation of Scores (0.099131) < Tolerance (0.1).
+------------------------------
+Optimization Finished. Best Score found: -194.7577
+6 fold 88.41%
+--- Starting Simplex Optimization (Dim: 60) ---
+Initial Best Score: -449.0959 (CLL)
+Initial Worst Score: -460.7098 (CLL)
+------------------------------
+CONVERGENCE ACHIEVED at Iter 2101.
+Standard Deviation of Scores (0.099341) < Tolerance (0.1).
+------------------------------
+Optimization Finished. Best Score found: -192.5285
+7 fold 89.86%
+--- Starting Simplex Optimization (Dim: 60) ---
+Initial Best Score: -402.6681 (CLL)
+Initial Worst Score: -413.0220 (CLL)
+------------------------------
+CONVERGENCE ACHIEVED at Iter 2243.
+Standard Deviation of Scores (0.099515) < Tolerance (0.1).
+------------------------------
+Optimization Finished. Best Score found: -184.2934
+8 fold 81.16%
+--- Starting Simplex Optimization (Dim: 60) ---
+Initial Best Score: -438.5674 (CLL)
+Initial Worst Score: -450.3943 (CLL)
+------------------------------
+CONVERGENCE ACHIEVED at Iter 1886.
+Standard Deviation of Scores (0.099250) < Tolerance (0.1).
+------------------------------
+Optimization Finished. Best Score found: -188.1918
+9 fold 82.61%
+--- Starting Simplex Optimization (Dim: 60) ---
+Initial Best Score: -424.6273 (CLL)
+Initial Worst Score: -435.3419 (CLL)
+------------------------------
+CONVERGENCE ACHIEVED at Iter 1835.
+Standard Deviation of Scores (0.098684) < Tolerance (0.1).
+------------------------------
+Optimization Finished. Best Score found: -200.0754
+10 fold 91.30%
+
+average 86.38%
+Successfully finished Australian - Nelder-Mead.
+Saved to: results_AustralianNAIVE_simplex.txt
+Elapsed time: 15.23 minutes
+
+--- Starting Experiment: Australian - Hooke-Jeeves ---
+Starting 10-Fold Validation on datasets/AustralianDisc.csv...
+Optimizer: HookeJeevesOptimizer | Max Iter: 17
+--- Starting Hooke-Jeeves Optimization (Dim: 60) ---
+Initial Score: -432.1079 (CLL)
+------------------------------
+
+CONVERGENCE ACHIEVED: Improvement (0.048575) < ftol (0.1)
+------------------------------
+Optimization Finished. Best Score found: -185.5110
+1 fold 84.06%
+--- Starting Hooke-Jeeves Optimization (Dim: 60) ---
+Initial Score: -463.2860 (CLL)
+------------------------------
+
+CONVERGENCE ACHIEVED: Improvement (0.064451) < ftol (0.1)
+------------------------------
+Optimization Finished. Best Score found: -192.3396
+2 fold 88.41%
+--- Starting Hooke-Jeeves Optimization (Dim: 60) ---
+Initial Score: -403.9152 (CLL)
+------------------------------
+
+CONVERGENCE ACHIEVED: Improvement (0.040342) < ftol (0.1)
+------------------------------
+Optimization Finished. Best Score found: -194.9159
+3 fold 85.51%
+--- Starting Hooke-Jeeves Optimization (Dim: 60) ---
+Initial Score: -414.2326 (CLL)
+------------------------------
+
+CONVERGENCE ACHIEVED: Improvement (0.061661) < ftol (0.1)
+------------------------------
+Optimization Finished. Best Score found: -190.5343
+4 fold 82.61%
+--- Starting Hooke-Jeeves Optimization (Dim: 60) ---
+Initial Score: -521.6308 (CLL)
+------------------------------
+
+CONVERGENCE ACHIEVED: Improvement (0.074740) < ftol (0.1)
+------------------------------
+Optimization Finished. Best Score found: -195.8089
+5 fold 88.41%
+--- Starting Hooke-Jeeves Optimization (Dim: 60) ---
+Initial Score: -421.3585 (CLL)
+------------------------------
+
+CONVERGENCE ACHIEVED: Improvement (0.083417) < ftol (0.1)
+------------------------------
+Optimization Finished. Best Score found: -194.0994
+6 fold 86.96%
+--- Starting Hooke-Jeeves Optimization (Dim: 60) ---
+Initial Score: -454.8674 (CLL)
+------------------------------
+
+CONVERGENCE ACHIEVED: Improvement (0.011847) < ftol (0.1)
+------------------------------
+Optimization Finished. Best Score found: -192.2029
+7 fold 89.86%
+--- Starting Hooke-Jeeves Optimization (Dim: 60) ---
+Initial Score: -407.8105 (CLL)
+------------------------------
+
+CONVERGENCE ACHIEVED: Improvement (0.050040) < ftol (0.1)
+------------------------------
+Optimization Finished. Best Score found: -183.7359
+8 fold 79.71%
+--- Starting Hooke-Jeeves Optimization (Dim: 60) ---
+Initial Score: -444.4231 (CLL)
+------------------------------
+
+CONVERGENCE ACHIEVED: Improvement (0.054500) < ftol (0.1)
+------------------------------
+Optimization Finished. Best Score found: -187.4151
+9 fold 84.06%
+--- Starting Hooke-Jeeves Optimization (Dim: 60) ---
+Initial Score: -429.9437 (CLL)
+------------------------------
+
+CONVERGENCE ACHIEVED: Improvement (0.056619) < ftol (0.1)
+------------------------------
+Optimization Finished. Best Score found: -199.0575
+10 fold 91.30%
+
+average 86.09%
+Successfully finished Australian - Hooke-Jeeves.
+Saved to: results_AustralianNAIVE_hooke.txt
+Elapsed time: 9.56 minutes
+
+--- Starting Experiment: Australian - L-BFGS (Gradient) ---
+Starting 10-Fold Validation (Gradient-Based) on datasets/AustralianDisc.csv...
+Optimizer: LBFGSOptimizerWrapper | Max Iter: 100
+--- Starting L-BFGS Optimization (Dim: 60) ---
+Initial Best Score: -432.1079 (CLL)
+------------------------------
+------------------------------
+Optimization Success!
+Total Iterations: 6
+Final Best Score: -185.7641 (CLL)
+1 fold 84.06%
+--- Starting L-BFGS Optimization (Dim: 60) ---
+Initial Best Score: -463.2860 (CLL)
+------------------------------
+------------------------------
+Optimization Success!
+Total Iterations: 6
+Final Best Score: -192.4800 (CLL)
+2 fold 88.41%
+--- Starting L-BFGS Optimization (Dim: 60) ---
+Initial Best Score: -403.9152 (CLL)
+------------------------------
+------------------------------
+Optimization Success!
+Total Iterations: 6
+Final Best Score: -195.7554 (CLL)
+3 fold 85.51%
+--- Starting L-BFGS Optimization (Dim: 60) ---
+Initial Best Score: -414.2326 (CLL)
+------------------------------
+------------------------------
+Optimization Success!
+Total Iterations: 6
+Final Best Score: -190.8226 (CLL)
+4 fold 82.61%
+--- Starting L-BFGS Optimization (Dim: 60) ---
+Initial Best Score: -521.6308 (CLL)
+------------------------------
+------------------------------
+Optimization Success!
+Total Iterations: 6
+Final Best Score: -196.1163 (CLL)
+5 fold 88.41%
+--- Starting L-BFGS Optimization (Dim: 60) ---
+Initial Best Score: -421.3585 (CLL)
+------------------------------
+------------------------------
+Optimization Success!
+Total Iterations: 6
+Final Best Score: -194.3134 (CLL)
+6 fold 88.41%
+--- Starting L-BFGS Optimization (Dim: 60) ---
+Initial Best Score: -454.8674 (CLL)
+------------------------------
+------------------------------
+Optimization Success!
+Total Iterations: 6
+Final Best Score: -192.4345 (CLL)
+7 fold 89.86%
+--- Starting L-BFGS Optimization (Dim: 60) ---
+Initial Best Score: -407.8105 (CLL)
+------------------------------
+------------------------------
+Optimization Success!
+Total Iterations: 6
+Final Best Score: -183.9063 (CLL)
+8 fold 81.16%
+--- Starting L-BFGS Optimization (Dim: 60) ---
+Initial Best Score: -444.4231 (CLL)
+------------------------------
+------------------------------
+Optimization Success!
+Total Iterations: 6
+Final Best Score: -187.8440 (CLL)
+9 fold 85.51%
+--- Starting L-BFGS Optimization (Dim: 60) ---
+Initial Best Score: -429.9437 (CLL)
+------------------------------
+------------------------------
+Optimization Success!
+Total Iterations: 6
+Final Best Score: -199.4115 (CLL)
+10 fold 91.30%
+
+average 86.52%
+Successfully finished Australian - L-BFGS (Gradient).
+Saved to: results_AustralianNAIVE_LBFGS.txt
+Elapsed time: 0.16 minutes
+
+--- Starting Experiment: Heart - Nelder-Mead ---
+Starting 10-Fold Validation on datasets/heartDisc.csv...
+Optimizer: NelderMeadOptimizer | Max Iter: 6000
+--- Starting Simplex Optimization (Dim: 58) ---
+Initial Best Score: -155.3084 (CLL)
+Initial Worst Score: -158.2120 (CLL)
+------------------------------
+CONVERGENCE ACHIEVED at Iter 1995.
+Standard Deviation of Scores (0.099153) < Tolerance (0.1).
+------------------------------
+Optimization Finished. Best Score found: -75.5962
+1 fold 77.78%
+--- Starting Simplex Optimization (Dim: 58) ---
+Initial Best Score: -188.3318 (CLL)
+Initial Worst Score: -191.8867 (CLL)
+------------------------------
+CONVERGENCE ACHIEVED at Iter 1795.
+Standard Deviation of Scores (0.099959) < Tolerance (0.1).
+------------------------------
+Optimization Finished. Best Score found: -80.2186
+2 fold 96.30%
+--- Starting Simplex Optimization (Dim: 58) ---
+Initial Best Score: -150.6694 (CLL)
+Initial Worst Score: -153.6318 (CLL)
+------------------------------
+CONVERGENCE ACHIEVED at Iter 1883.
+Standard Deviation of Scores (0.097146) < Tolerance (0.1).
+------------------------------
+Optimization Finished. Best Score found: -72.5846
+3 fold 77.78%
+--- Starting Simplex Optimization (Dim: 58) ---
+Initial Best Score: -192.1608 (CLL)
+Initial Worst Score: -196.0456 (CLL)
+------------------------------
+CONVERGENCE ACHIEVED at Iter 1743.
+Standard Deviation of Scores (0.098149) < Tolerance (0.1).
+------------------------------
+Optimization Finished. Best Score found: -70.7685
+4 fold 70.37%
+--- Starting Simplex Optimization (Dim: 58) ---
+Initial Best Score: -193.1554 (CLL)
+Initial Worst Score: -196.8805 (CLL)
+------------------------------
+CONVERGENCE ACHIEVED at Iter 1889.
+Standard Deviation of Scores (0.099747) < Tolerance (0.1).
+------------------------------
+Optimization Finished. Best Score found: -76.5983
+5 fold 85.19%
+--- Starting Simplex Optimization (Dim: 58) ---
+Initial Best Score: -165.4465 (CLL)
+Initial Worst Score: -168.6710 (CLL)
+------------------------------
+CONVERGENCE ACHIEVED at Iter 1908.
+Standard Deviation of Scores (0.099749) < Tolerance (0.1).
+------------------------------
+Optimization Finished. Best Score found: -77.1166
+6 fold 85.19%
+--- Starting Simplex Optimization (Dim: 58) ---
+Initial Best Score: -176.0008 (CLL)
+Initial Worst Score: -179.5713 (CLL)
+------------------------------
+CONVERGENCE ACHIEVED at Iter 1706.
+Standard Deviation of Scores (0.099779) < Tolerance (0.1).
+------------------------------
+Optimization Finished. Best Score found: -77.0485
+7 fold 85.19%
+--- Starting Simplex Optimization (Dim: 58) ---
+Initial Best Score: -189.6592 (CLL)
+Initial Worst Score: -193.6659 (CLL)
+------------------------------
+CONVERGENCE ACHIEVED at Iter 1986.
+Standard Deviation of Scores (0.099975) < Tolerance (0.1).
+------------------------------
+Optimization Finished. Best Score found: -73.9669
+8 fold 88.89%
+--- Starting Simplex Optimization (Dim: 58) ---
+Initial Best Score: -174.7182 (CLL)
+Initial Worst Score: -178.2075 (CLL)
+------------------------------
+CONVERGENCE ACHIEVED at Iter 1647.
+Standard Deviation of Scores (0.099683) < Tolerance (0.1).
+------------------------------
+Optimization Finished. Best Score found: -76.0455
+9 fold 85.19%
+--- Starting Simplex Optimization (Dim: 58) ---
+Initial Best Score: -180.1911 (CLL)
+Initial Worst Score: -183.7561 (CLL)
+------------------------------
+CONVERGENCE ACHIEVED at Iter 1958.
+Standard Deviation of Scores (0.099445) < Tolerance (0.1).
+------------------------------
+Optimization Finished. Best Score found: -77.2890
+10 fold 77.78%
+
+average 82.96%
+Successfully finished Heart - Nelder-Mead.
+Saved to: results_HeartNAIVE_simplex.txt
+Elapsed time: 5.49 minutes
+
+--- Starting Experiment: Heart - Hooke-Jeeves ---
+Starting 10-Fold Validation on datasets/heartDisc.csv...
+Optimizer: HookeJeevesOptimizer | Max Iter: 17
+--- Starting Hooke-Jeeves Optimization (Dim: 58) ---
+Initial Score: -156.7418 (CLL)
+------------------------------
+
+CONVERGENCE ACHIEVED: Improvement (0.030202) < ftol (0.1)
+------------------------------
+Optimization Finished. Best Score found: -72.6478
+1 fold 70.37%
+--- Starting Hooke-Jeeves Optimization (Dim: 58) ---
+Initial Score: -190.0869 (CLL)
+------------------------------
+
+CONVERGENCE ACHIEVED: Improvement (0.029560) < ftol (0.1)
+------------------------------
+Optimization Finished. Best Score found: -77.0266
+2 fold 96.30%
+--- Starting Hooke-Jeeves Optimization (Dim: 58) ---
+Initial Score: -152.1318 (CLL)
+------------------------------
+
+CONVERGENCE ACHIEVED: Improvement (0.092565) < ftol (0.1)
+------------------------------
+Optimization Finished. Best Score found: -70.6100
+3 fold 66.67%
+--- Starting Hooke-Jeeves Optimization (Dim: 58) ---
+Initial Score: -194.0781 (CLL)
+------------------------------
+
+CONVERGENCE ACHIEVED: Improvement (0.095538) < ftol (0.1)
+------------------------------
+Optimization Finished. Best Score found: -69.0483
+4 fold 74.07%
+--- Starting Hooke-Jeeves Optimization (Dim: 58) ---
+Initial Score: -194.9985 (CLL)
+------------------------------
+
+CONVERGENCE ACHIEVED: Improvement (0.068319) < ftol (0.1)
+------------------------------
+Optimization Finished. Best Score found: -73.8692
+5 fold 85.19%
+--- Starting Hooke-Jeeves Optimization (Dim: 58) ---
+Initial Score: -167.0339 (CLL)
+------------------------------
+
+CONVERGENCE ACHIEVED: Improvement (0.081904) < ftol (0.1)
+------------------------------
+Optimization Finished. Best Score found: -75.9487
+6 fold 85.19%
+--- Starting Hooke-Jeeves Optimization (Dim: 58) ---
+Initial Score: -177.7633 (CLL)
+------------------------------
+
+CONVERGENCE ACHIEVED: Improvement (0.054375) < ftol (0.1)
+------------------------------
+Optimization Finished. Best Score found: -75.6093
+7 fold 88.89%
+--- Starting Hooke-Jeeves Optimization (Dim: 58) ---
+Initial Score: -191.6355 (CLL)
+------------------------------
+
+CONVERGENCE ACHIEVED: Improvement (0.039066) < ftol (0.1)
+------------------------------
+Optimization Finished. Best Score found: -72.3868
+8 fold 88.89%
+--- Starting Hooke-Jeeves Optimization (Dim: 58) ---
+Initial Score: -176.4403 (CLL)
+------------------------------
+
+CONVERGENCE ACHIEVED: Improvement (0.078416) < ftol (0.1)
+------------------------------
+Optimization Finished. Best Score found: -74.2206
+9 fold 85.19%
+--- Starting Hooke-Jeeves Optimization (Dim: 58) ---
+Initial Score: -181.9544 (CLL)
+------------------------------
+
+CONVERGENCE ACHIEVED: Improvement (0.095634) < ftol (0.1)
+------------------------------
+Optimization Finished. Best Score found: -75.2059
+10 fold 81.48%
+
+average 82.22%
+Successfully finished Heart - Hooke-Jeeves.
+Saved to: results_HeartNAIVE_hooke.txt
+Elapsed time: 4.73 minutes
+
+--- Starting Experiment: Heart - L-BFGS (Gradient) ---
+Starting 10-Fold Validation (Gradient-Based) on datasets/heartDisc.csv...
+Optimizer: LBFGSOptimizerWrapper | Max Iter: 100
+--- Starting L-BFGS Optimization (Dim: 58) ---
+Initial Best Score: -156.7418 (CLL)
+------------------------------
+------------------------------
+Optimization Success!
+Total Iterations: 6
+Final Best Score: -74.3294 (CLL)
+1 fold 70.37%
+--- Starting L-BFGS Optimization (Dim: 58) ---
+Initial Best Score: -190.0869 (CLL)
+------------------------------
+------------------------------
+Optimization Success!
+Total Iterations: 7
+Final Best Score: -78.0268 (CLL)
+2 fold 96.30%
+--- Starting L-BFGS Optimization (Dim: 58) ---
+Initial Best Score: -152.1318 (CLL)
+------------------------------
+------------------------------
+Optimization Success!
+Total Iterations: 8
+Final Best Score: -71.0388 (CLL)
+3 fold 66.67%
+--- Starting L-BFGS Optimization (Dim: 58) ---
+Initial Best Score: -194.0781 (CLL)
+------------------------------
+------------------------------
+Optimization Success!
+Total Iterations: 6
+Final Best Score: -70.0495 (CLL)
+4 fold 74.07%
+--- Starting L-BFGS Optimization (Dim: 58) ---
+Initial Best Score: -194.9985 (CLL)
+------------------------------
+------------------------------
+Optimization Success!
+Total Iterations: 8
+Final Best Score: -74.4593 (CLL)
+5 fold 85.19%
+--- Starting L-BFGS Optimization (Dim: 58) ---
+Initial Best Score: -167.0339 (CLL)
+------------------------------
+------------------------------
+Optimization Success!
+Total Iterations: 6
+Final Best Score: -77.5340 (CLL)
+6 fold 88.89%
+--- Starting L-BFGS Optimization (Dim: 58) ---
+Initial Best Score: -177.7633 (CLL)
+------------------------------
+------------------------------
+Optimization Success!
+Total Iterations: 6
+Final Best Score: -77.0444 (CLL)
+7 fold 92.59%
+--- Starting L-BFGS Optimization (Dim: 58) ---
+Initial Best Score: -191.6355 (CLL)
+------------------------------
+------------------------------
+Optimization Success!
+Total Iterations: 7
+Final Best Score: -73.2605 (CLL)
+8 fold 88.89%
+--- Starting L-BFGS Optimization (Dim: 58) ---
+Initial Best Score: -176.4403 (CLL)
+------------------------------
+------------------------------
+Optimization Success!
+Total Iterations: 6
+Final Best Score: -75.6223 (CLL)
+9 fold 85.19%
+--- Starting L-BFGS Optimization (Dim: 58) ---
+Initial Best Score: -181.9544 (CLL)
+------------------------------
+------------------------------
+Optimization Success!
+Total Iterations: 6
+Final Best Score: -76.7089 (CLL)
+10 fold 77.78%
+
+average 82.59%
+Successfully finished Heart - L-BFGS (Gradient).
+Saved to: results_HeartNAIVE_LBFGS.txt
+Elapsed time: 0.07 minutes
+
+--- Starting Experiment: Diabetes - Nelder-Mead ---
+Starting 10-Fold Validation on datasets/diabetesDisc.csv...
+Optimizer: NelderMeadOptimizer | Max Iter: 6000
+--- Starting Simplex Optimization (Dim: 40) ---
+Initial Best Score: -447.3199 (CLL)
+Initial Worst Score: -454.5796 (CLL)
+------------------------------
+CONVERGENCE ACHIEVED at Iter 889.
+Standard Deviation of Scores (0.097055) < Tolerance (0.1).
+------------------------------
+Optimization Finished. Best Score found: -320.7454
+1 fold 75.32%
+--- Starting Simplex Optimization (Dim: 40) ---
+Initial Best Score: -499.5214 (CLL)
+Initial Worst Score: -508.9007 (CLL)
+------------------------------
+CONVERGENCE ACHIEVED at Iter 1002.
+Standard Deviation of Scores (0.099684) < Tolerance (0.1).
+------------------------------
+Optimization Finished. Best Score found: -325.5711
+2 fold 81.82%
+--- Starting Simplex Optimization (Dim: 40) ---
+Initial Best Score: -502.5019 (CLL)
+Initial Worst Score: -511.5158 (CLL)
+------------------------------
+CONVERGENCE ACHIEVED at Iter 1072.
+Standard Deviation of Scores (0.098457) < Tolerance (0.1).
+------------------------------
+Optimization Finished. Best Score found: -315.3238
+3 fold 70.13%
+--- Starting Simplex Optimization (Dim: 40) ---
+Initial Best Score: -469.1913 (CLL)
+Initial Worst Score: -480.1935 (CLL)
+------------------------------
+CONVERGENCE ACHIEVED at Iter 1055.
+Standard Deviation of Scores (0.099002) < Tolerance (0.1).
+------------------------------
+Optimization Finished. Best Score found: -331.2818
+4 fold 84.42%
+--- Starting Simplex Optimization (Dim: 40) ---
+Initial Best Score: -454.9307 (CLL)
+Initial Worst Score: -462.5940 (CLL)
+------------------------------
+CONVERGENCE ACHIEVED at Iter 950.
+Standard Deviation of Scores (0.096729) < Tolerance (0.1).
+------------------------------
+Optimization Finished. Best Score found: -322.9962
+5 fold 79.22%
+--- Starting Simplex Optimization (Dim: 40) ---
+Initial Best Score: -472.4242 (CLL)
+Initial Worst Score: -484.7312 (CLL)
+------------------------------
+CONVERGENCE ACHIEVED at Iter 900.
+Standard Deviation of Scores (0.097005) < Tolerance (0.1).
+------------------------------
+Optimization Finished. Best Score found: -313.2274
+6 fold 63.64%
+--- Starting Simplex Optimization (Dim: 40) ---
+Initial Best Score: -508.6591 (CLL)
+Initial Worst Score: -519.1097 (CLL)
+------------------------------
+CONVERGENCE ACHIEVED at Iter 1074.
+Standard Deviation of Scores (0.098848) < Tolerance (0.1).
+------------------------------
+Optimization Finished. Best Score found: -330.8573
+7 fold 84.42%
+--- Starting Simplex Optimization (Dim: 40) ---
+Initial Best Score: -430.0599 (CLL)
+Initial Worst Score: -436.3447 (CLL)
+------------------------------
+CONVERGENCE ACHIEVED at Iter 952.
+Standard Deviation of Scores (0.098595) < Tolerance (0.1).
+------------------------------
+Optimization Finished. Best Score found: -323.0214
+8 fold 79.22%
+--- Starting Simplex Optimization (Dim: 40) ---
+Initial Best Score: -476.7415 (CLL)
+Initial Worst Score: -487.5877 (CLL)
+------------------------------
+CONVERGENCE ACHIEVED at Iter 917.
+Standard Deviation of Scores (0.098743) < Tolerance (0.1).
+------------------------------
+Optimization Finished. Best Score found: -320.8041
+9 fold 72.37%
+--- Starting Simplex Optimization (Dim: 40) ---
+Initial Best Score: -510.8443 (CLL)
+Initial Worst Score: -523.1343 (CLL)
+------------------------------
+CONVERGENCE ACHIEVED at Iter 1045.
+Standard Deviation of Scores (0.096659) < Tolerance (0.1).
+------------------------------
+Optimization Finished. Best Score found: -326.7214
+10 fold 78.95%
+
+average 76.95%
+Successfully finished Diabetes - Nelder-Mead.
+Saved to: results_DiabetesNAIVE_simplex.txt
+Elapsed time: 5.65 minutes
+
+--- Starting Experiment: Diabetes - Hooke-Jeeves ---
+Starting 10-Fold Validation on datasets/diabetesDisc.csv...
+Optimizer: HookeJeevesOptimizer | Max Iter: 17
+--- Starting Hooke-Jeeves Optimization (Dim: 40) ---
+Initial Score: -450.7407 (CLL)
+------------------------------
+
+CONVERGENCE ACHIEVED: Improvement (0.008031) < ftol (0.1)
+------------------------------
+Optimization Finished. Best Score found: -320.2417
+1 fold 75.32%
+--- Starting Hooke-Jeeves Optimization (Dim: 40) ---
+Initial Score: -504.1180 (CLL)
+------------------------------
+
+CONVERGENCE ACHIEVED: Improvement (0.034824) < ftol (0.1)
+------------------------------
+Optimization Finished. Best Score found: -325.0113
+2 fold 81.82%
+--- Starting Hooke-Jeeves Optimization (Dim: 40) ---
+Initial Score: -506.9616 (CLL)
+------------------------------
+
+CONVERGENCE ACHIEVED: Improvement (0.024127) < ftol (0.1)
+------------------------------
+Optimization Finished. Best Score found: -314.8910
+3 fold 70.13%
+--- Starting Hooke-Jeeves Optimization (Dim: 40) ---
+Initial Score: -474.4790 (CLL)
+------------------------------
+
+CONVERGENCE ACHIEVED: Improvement (0.044211) < ftol (0.1)
+------------------------------
+Optimization Finished. Best Score found: -330.9571
+4 fold 84.42%
+--- Starting Hooke-Jeeves Optimization (Dim: 40) ---
+Initial Score: -458.5847 (CLL)
+------------------------------
+
+CONVERGENCE ACHIEVED: Improvement (0.009243) < ftol (0.1)
+------------------------------
+Optimization Finished. Best Score found: -322.5876
+5 fold 79.22%
+--- Starting Hooke-Jeeves Optimization (Dim: 40) ---
+Initial Score: -478.3643 (CLL)
+------------------------------
+
+CONVERGENCE ACHIEVED: Improvement (0.032701) < ftol (0.1)
+------------------------------
+Optimization Finished. Best Score found: -312.7668
+6 fold 63.64%
+--- Starting Hooke-Jeeves Optimization (Dim: 40) ---
+Initial Score: -513.6733 (CLL)
+------------------------------
+
+CONVERGENCE ACHIEVED: Improvement (0.031695) < ftol (0.1)
+------------------------------
+Optimization Finished. Best Score found: -330.4303
+7 fold 84.42%
+--- Starting Hooke-Jeeves Optimization (Dim: 40) ---
+Initial Score: -433.1645 (CLL)
+------------------------------
+
+CONVERGENCE ACHIEVED: Improvement (0.054118) < ftol (0.1)
+------------------------------
+Optimization Finished. Best Score found: -322.8466
+8 fold 77.92%
+--- Starting Hooke-Jeeves Optimization (Dim: 40) ---
+Initial Score: -481.9514 (CLL)
+------------------------------
+
+CONVERGENCE ACHIEVED: Improvement (0.017342) < ftol (0.1)
+------------------------------
+Optimization Finished. Best Score found: -319.6798
+9 fold 72.37%
+--- Starting Hooke-Jeeves Optimization (Dim: 40) ---
+Initial Score: -516.7757 (CLL)
+------------------------------
+
+CONVERGENCE ACHIEVED: Improvement (0.062764) < ftol (0.1)
+------------------------------
+Optimization Finished. Best Score found: -326.3034
+10 fold 78.95%
+
+average 76.82%
+Successfully finished Diabetes - Hooke-Jeeves.
+Saved to: results_DiabetesNAIVE_hooke.txt
+Elapsed time: 4.72 minutes
+
+--- Starting Experiment: Diabetes - L-BFGS (Gradient) ---
+Starting 10-Fold Validation (Gradient-Based) on datasets/diabetesDisc.csv...
+Optimizer: LBFGSOptimizerWrapper | Max Iter: 100
+--- Starting L-BFGS Optimization (Dim: 40) ---
+Initial Best Score: -450.7407 (CLL)
+------------------------------
+------------------------------
+Optimization Success!
+Total Iterations: 5
+Final Best Score: -320.3961 (CLL)
+1 fold 75.32%
+--- Starting L-BFGS Optimization (Dim: 40) ---
+Initial Best Score: -504.1180 (CLL)
+------------------------------
+------------------------------
+Optimization Success!
+Total Iterations: 5
+Final Best Score: -325.0462 (CLL)
+2 fold 81.82%
+--- Starting L-BFGS Optimization (Dim: 40) ---
+Initial Best Score: -506.9616 (CLL)
+------------------------------
+------------------------------
+Optimization Success!
+Total Iterations: 5
+Final Best Score: -315.0163 (CLL)
+3 fold 70.13%
+--- Starting L-BFGS Optimization (Dim: 40) ---
+Initial Best Score: -474.4790 (CLL)
+------------------------------
+------------------------------
+Optimization Success!
+Total Iterations: 5
+Final Best Score: -331.1486 (CLL)
+4 fold 84.42%
+--- Starting L-BFGS Optimization (Dim: 40) ---
+Initial Best Score: -458.5847 (CLL)
+------------------------------
+------------------------------
+Optimization Success!
+Total Iterations: 5
+Final Best Score: -322.6921 (CLL)
+5 fold 79.22%
+--- Starting L-BFGS Optimization (Dim: 40) ---
+Initial Best Score: -478.3643 (CLL)
+------------------------------
+------------------------------
+Optimization Success!
+Total Iterations: 5
+Final Best Score: -312.8828 (CLL)
+6 fold 63.64%
+--- Starting L-BFGS Optimization (Dim: 40) ---
+Initial Best Score: -513.6733 (CLL)
+------------------------------
+------------------------------
+Optimization Success!
+Total Iterations: 5
+Final Best Score: -330.5553 (CLL)
+7 fold 84.42%
+--- Starting L-BFGS Optimization (Dim: 40) ---
+Initial Best Score: -433.1645 (CLL)
+------------------------------
+------------------------------
+Optimization Success!
+Total Iterations: 5
+Final Best Score: -323.0889 (CLL)
+8 fold 77.92%
+--- Starting L-BFGS Optimization (Dim: 40) ---
+Initial Best Score: -481.9514 (CLL)
+------------------------------
+------------------------------
+Optimization Success!
+Total Iterations: 5
+Final Best Score: -319.7562 (CLL)
+9 fold 72.37%
+--- Starting L-BFGS Optimization (Dim: 40) ---
+Initial Best Score: -516.7757 (CLL)
+------------------------------
+------------------------------
+Optimization Success!
+Total Iterations: 5
+Final Best Score: -326.3317 (CLL)
+10 fold 78.95%
+
+average 76.82%
+Successfully finished Diabetes - L-BFGS (Gradient).
+Saved to: results_DiabetesNAIVE_LBFGS.txt
+Elapsed time: 0.10 minutes
+
+--- Starting Experiment: Pima - Nelder-Mead ---
+Starting 10-Fold Validation on datasets/pimaDisc.csv...
+Optimizer: NelderMeadOptimizer | Max Iter: 6000
+--- Starting Simplex Optimization (Dim: 40) ---
+Initial Best Score: -443.5514 (CLL)
+Initial Worst Score: -449.9453 (CLL)
+------------------------------
+CONVERGENCE ACHIEVED at Iter 949.
+Standard Deviation of Scores (0.098446) < Tolerance (0.1).
+------------------------------
+Optimization Finished. Best Score found: -326.8276
+1 fold 79.22%
+--- Starting Simplex Optimization (Dim: 40) ---
+Initial Best Score: -486.2066 (CLL)
+Initial Worst Score: -496.0029 (CLL)
+------------------------------
+CONVERGENCE ACHIEVED at Iter 991.
+Standard Deviation of Scores (0.099769) < Tolerance (0.1).
+------------------------------
+Optimization Finished. Best Score found: -327.0050
+2 fold 83.12%
+--- Starting Simplex Optimization (Dim: 40) ---
+Initial Best Score: -505.2354 (CLL)
+Initial Worst Score: -514.7460 (CLL)
+------------------------------
+CONVERGENCE ACHIEVED at Iter 925.
+Standard Deviation of Scores (0.098321) < Tolerance (0.1).
+------------------------------
+Optimization Finished. Best Score found: -322.7377
+3 fold 71.43%
+--- Starting Simplex Optimization (Dim: 40) ---
+Initial Best Score: -470.0631 (CLL)
+Initial Worst Score: -481.4983 (CLL)
+------------------------------
+CONVERGENCE ACHIEVED at Iter 955.
+Standard Deviation of Scores (0.098757) < Tolerance (0.1).
+------------------------------
+Optimization Finished. Best Score found: -316.9261
+4 fold 68.83%
+--- Starting Simplex Optimization (Dim: 40) ---
+Initial Best Score: -456.7867 (CLL)
+Initial Worst Score: -464.7984 (CLL)
+------------------------------
+CONVERGENCE ACHIEVED at Iter 942.
+Standard Deviation of Scores (0.098843) < Tolerance (0.1).
+------------------------------
+Optimization Finished. Best Score found: -321.6026
+5 fold 74.03%
+--- Starting Simplex Optimization (Dim: 40) ---
+Initial Best Score: -486.3136 (CLL)
+Initial Worst Score: -496.9762 (CLL)
+------------------------------
+CONVERGENCE ACHIEVED at Iter 1071.
+Standard Deviation of Scores (0.099771) < Tolerance (0.1).
+------------------------------
+Optimization Finished. Best Score found: -320.0246
+6 fold 75.32%
+--- Starting Simplex Optimization (Dim: 40) ---
+Initial Best Score: -521.1787 (CLL)
+Initial Worst Score: -531.9636 (CLL)
+------------------------------
+CONVERGENCE ACHIEVED at Iter 1022.
+Standard Deviation of Scores (0.099423) < Tolerance (0.1).
+------------------------------
+Optimization Finished. Best Score found: -326.1281
+7 fold 83.12%
+--- Starting Simplex Optimization (Dim: 40) ---
+Initial Best Score: -437.3718 (CLL)
+Initial Worst Score: -444.3627 (CLL)
+------------------------------
+CONVERGENCE ACHIEVED at Iter 926.
+Standard Deviation of Scores (0.098513) < Tolerance (0.1).
+------------------------------
+Optimization Finished. Best Score found: -326.0684
+8 fold 80.52%
+--- Starting Simplex Optimization (Dim: 40) ---
+Initial Best Score: -459.2119 (CLL)
+Initial Worst Score: -468.1066 (CLL)
+------------------------------
+CONVERGENCE ACHIEVED at Iter 964.
+Standard Deviation of Scores (0.099925) < Tolerance (0.1).
+------------------------------
+Optimization Finished. Best Score found: -320.6898
+9 fold 76.32%
+--- Starting Simplex Optimization (Dim: 40) ---
+Initial Best Score: -516.0131 (CLL)
+Initial Worst Score: -529.5266 (CLL)
+------------------------------
+CONVERGENCE ACHIEVED at Iter 986.
+Standard Deviation of Scores (0.098519) < Tolerance (0.1).
+------------------------------
+Optimization Finished. Best Score found: -323.3247
+10 fold 75.00%
+
+average 76.69%
+Successfully finished Pima - Nelder-Mead.
+Saved to: results_PimaNAIVE_simplex.txt
+Elapsed time: 5.54 minutes
+
+--- Starting Experiment: Pima - Hooke-Jeeves ---
+Starting 10-Fold Validation on datasets/pimaDisc.csv...
+Optimizer: HookeJeevesOptimizer | Max Iter: 17
+--- Starting Hooke-Jeeves Optimization (Dim: 40) ---
+Initial Score: -446.7117 (CLL)
+------------------------------
+
+CONVERGENCE ACHIEVED: Improvement (0.046040) < ftol (0.1)
+------------------------------
+Optimization Finished. Best Score found: -326.6720
+1 fold 80.52%
+--- Starting Hooke-Jeeves Optimization (Dim: 40) ---
+Initial Score: -490.8926 (CLL)
+------------------------------
+
+CONVERGENCE ACHIEVED: Improvement (0.081883) < ftol (0.1)
+------------------------------
+Optimization Finished. Best Score found: -326.5782
+2 fold 83.12%
+--- Starting Hooke-Jeeves Optimization (Dim: 40) ---
+Initial Score: -509.7802 (CLL)
+------------------------------
+
+CONVERGENCE ACHIEVED: Improvement (0.035097) < ftol (0.1)
+------------------------------
+Optimization Finished. Best Score found: -322.1375
+3 fold 74.03%
+--- Starting Hooke-Jeeves Optimization (Dim: 40) ---
+Initial Score: -475.5677 (CLL)
+------------------------------
+
+CONVERGENCE ACHIEVED: Improvement (0.050714) < ftol (0.1)
+------------------------------
+Optimization Finished. Best Score found: -316.5034
+4 fold 66.23%
+--- Starting Hooke-Jeeves Optimization (Dim: 40) ---
+Initial Score: -460.6145 (CLL)
+------------------------------
+
+CONVERGENCE ACHIEVED: Improvement (0.052168) < ftol (0.1)
+------------------------------
+Optimization Finished. Best Score found: -321.3646
+5 fold 74.03%
+--- Starting Hooke-Jeeves Optimization (Dim: 40) ---
+Initial Score: -491.4313 (CLL)
+------------------------------
+
+CONVERGENCE ACHIEVED: Improvement (0.075475) < ftol (0.1)
+------------------------------
+Optimization Finished. Best Score found: -319.2685
+6 fold 76.62%
+--- Starting Hooke-Jeeves Optimization (Dim: 40) ---
+Initial Score: -526.3605 (CLL)
+------------------------------
+
+CONVERGENCE ACHIEVED: Improvement (0.047572) < ftol (0.1)
+------------------------------
+Optimization Finished. Best Score found: -325.7681
+7 fold 83.12%
+--- Starting Hooke-Jeeves Optimization (Dim: 40) ---
+Initial Score: -440.6581 (CLL)
+------------------------------
+
+CONVERGENCE ACHIEVED: Improvement (0.085558) < ftol (0.1)
+------------------------------
+Optimization Finished. Best Score found: -325.8605
+8 fold 80.52%
+--- Starting Hooke-Jeeves Optimization (Dim: 40) ---
+Initial Score: -463.4465 (CLL)
+------------------------------
+
+CONVERGENCE ACHIEVED: Improvement (0.051784) < ftol (0.1)
+------------------------------
+Optimization Finished. Best Score found: -320.4210
+9 fold 75.00%
+--- Starting Hooke-Jeeves Optimization (Dim: 40) ---
+Initial Score: -522.5568 (CLL)
+------------------------------
+
+CONVERGENCE ACHIEVED: Improvement (0.009308) < ftol (0.1)
+------------------------------
+Optimization Finished. Best Score found: -322.8532
+10 fold 75.00%
+
+average 76.82%
+Successfully finished Pima - Hooke-Jeeves.
+Saved to: results_PimaNAIVE_hooke.txt
+Elapsed time: 4.43 minutes
+
+--- Starting Experiment: Pima - L-BFGS (Gradient) ---
+Starting 10-Fold Validation (Gradient-Based) on datasets/pimaDisc.csv...
+Optimizer: LBFGSOptimizerWrapper | Max Iter: 100
+--- Starting L-BFGS Optimization (Dim: 40) ---
+Initial Best Score: -446.7117 (CLL)
+------------------------------
+------------------------------
+Optimization Success!
+Total Iterations: 5
+Final Best Score: -326.9653 (CLL)
+1 fold 79.22%
+--- Starting L-BFGS Optimization (Dim: 40) ---
+Initial Best Score: -490.8926 (CLL)
+------------------------------
+------------------------------
+Optimization Success!
+Total Iterations: 5
+Final Best Score: -326.6293 (CLL)
+2 fold 83.12%
+--- Starting L-BFGS Optimization (Dim: 40) ---
+Initial Best Score: -509.7802 (CLL)
+------------------------------
+------------------------------
+Optimization Success!
+Total Iterations: 5
+Final Best Score: -322.3263 (CLL)
+3 fold 72.73%
+--- Starting L-BFGS Optimization (Dim: 40) ---
+Initial Best Score: -475.5677 (CLL)
+------------------------------
+------------------------------
+Optimization Success!
+Total Iterations: 5
+Final Best Score: -316.5986 (CLL)
+4 fold 64.94%
+--- Starting L-BFGS Optimization (Dim: 40) ---
+Initial Best Score: -460.6145 (CLL)
+------------------------------
+------------------------------
+Optimization Success!
+Total Iterations: 5
+Final Best Score: -321.4070 (CLL)
+5 fold 74.03%
+--- Starting L-BFGS Optimization (Dim: 40) ---
+Initial Best Score: -491.4313 (CLL)
+------------------------------
+------------------------------
+Optimization Success!
+Total Iterations: 5
+Final Best Score: -319.4237 (CLL)
+6 fold 75.32%
+--- Starting L-BFGS Optimization (Dim: 40) ---
+Initial Best Score: -526.3605 (CLL)
+------------------------------
+------------------------------
+Optimization Success!
+Total Iterations: 5
+Final Best Score: -325.8315 (CLL)
+7 fold 83.12%
+--- Starting L-BFGS Optimization (Dim: 40) ---
+Initial Best Score: -440.6581 (CLL)
+------------------------------
+------------------------------
+Optimization Success!
+Total Iterations: 5
+Final Best Score: -325.9529 (CLL)
+8 fold 80.52%
+--- Starting L-BFGS Optimization (Dim: 40) ---
+Initial Best Score: -463.4465 (CLL)
+------------------------------
+------------------------------
+Optimization Success!
+Total Iterations: 5
+Final Best Score: -320.5938 (CLL)
+9 fold 75.00%
+--- Starting L-BFGS Optimization (Dim: 40) ---
+Initial Best Score: -522.5568 (CLL)
+------------------------------
+------------------------------
+Optimization Success!
+Total Iterations: 5
+Final Best Score: -322.9200 (CLL)
+10 fold 75.00%
+
+average 76.30%
+Successfully finished Pima - L-BFGS (Gradient).
+Saved to: results_PimaNAIVE_LBFGS.txt
+Elapsed time: 0.09 minutes
+
+--- Starting Experiment: TicTacToe - Nelder-Mead ---
+Starting 10-Fold Validation on datasets/tic-tac-toe.csv...
+Optimizer: NelderMeadOptimizer | Max Iter: 6000
+--- Starting Simplex Optimization (Dim: 56) ---
+Initial Best Score: -642.4410 (CLL)
+Initial Worst Score: -661.3402 (CLL)
+------------------------------
+CONVERGENCE ACHIEVED at Iter 4631.
+Standard Deviation of Scores (0.099689) < Tolerance (0.1).
+------------------------------
+Optimization Finished. Best Score found: -36.7703
+1 fold 96.88%
+--- Starting Simplex Optimization (Dim: 56) ---
+Initial Best Score: -620.5373 (CLL)
+Initial Worst Score: -637.5823 (CLL)
+------------------------------
+CONVERGENCE ACHIEVED at Iter 4664.
+Standard Deviation of Scores (0.099119) < Tolerance (0.1).
+------------------------------
+Optimization Finished. Best Score found: -49.9308
+2 fold 96.88%
+--- Starting Simplex Optimization (Dim: 56) ---
+Initial Best Score: -589.2199 (CLL)
+Initial Worst Score: -601.1155 (CLL)
+------------------------------
+CONVERGENCE ACHIEVED at Iter 4224.
+Standard Deviation of Scores (0.098241) < Tolerance (0.1).
+------------------------------
+Optimization Finished. Best Score found: -41.7447
+3 fold 100.00%
+--- Starting Simplex Optimization (Dim: 56) ---
+Initial Best Score: -624.1563 (CLL)
+Initial Worst Score: -639.5827 (CLL)
+------------------------------
+CONVERGENCE ACHIEVED at Iter 4638.
+Standard Deviation of Scores (0.099109) < Tolerance (0.1).
+------------------------------
+Optimization Finished. Best Score found: -35.6023
+4 fold 97.92%
+--- Starting Simplex Optimization (Dim: 56) ---
+Initial Best Score: -621.7105 (CLL)
+Initial Worst Score: -637.2397 (CLL)
+------------------------------
+CONVERGENCE ACHIEVED at Iter 4322.
+Standard Deviation of Scores (0.098744) < Tolerance (0.1).
+------------------------------
+Optimization Finished. Best Score found: -36.9865
+5 fold 97.92%
+--- Starting Simplex Optimization (Dim: 56) ---
+Initial Best Score: -592.3463 (CLL)
+Initial Worst Score: -604.8388 (CLL)
+------------------------------
+CONVERGENCE ACHIEVED at Iter 4196.
+Standard Deviation of Scores (0.098559) < Tolerance (0.1).
+------------------------------
+Optimization Finished. Best Score found: -37.8229
+6 fold 97.92%
+--- Starting Simplex Optimization (Dim: 56) ---
+Initial Best Score: -607.0570 (CLL)
+Initial Worst Score: -620.8707 (CLL)
+------------------------------
+CONVERGENCE ACHIEVED at Iter 4132.
+Standard Deviation of Scores (0.099490) < Tolerance (0.1).
+------------------------------
+Optimization Finished. Best Score found: -38.8355
+7 fold 98.96%
+--- Starting Simplex Optimization (Dim: 56) ---
+Initial Best Score: -608.6554 (CLL)
+Initial Worst Score: -624.8028 (CLL)
+------------------------------
+CONVERGENCE ACHIEVED at Iter 4736.
+Standard Deviation of Scores (0.099928) < Tolerance (0.1).
+------------------------------
+Optimization Finished. Best Score found: -42.8607
+8 fold 98.96%
+--- Starting Simplex Optimization (Dim: 56) ---
+Initial Best Score: -604.8493 (CLL)
+Initial Worst Score: -618.7370 (CLL)
+------------------------------
+CONVERGENCE ACHIEVED at Iter 4112.
+Standard Deviation of Scores (0.099173) < Tolerance (0.1).
+------------------------------
+Optimization Finished. Best Score found: -39.0683
+9 fold 98.95%
+--- Starting Simplex Optimization (Dim: 56) ---
+Initial Best Score: -563.7338 (CLL)
+Initial Worst Score: -576.0813 (CLL)
+------------------------------
+CONVERGENCE ACHIEVED at Iter 4505.
+Standard Deviation of Scores (0.099951) < Tolerance (0.1).
+------------------------------
+Optimization Finished. Best Score found: -38.1404
+10 fold 97.89%
+
+average 98.23%
+Successfully finished TicTacToe - Nelder-Mead.
+Saved to: results_TicTacToeNAIVE_simplex.txt
+Elapsed time: 32.62 minutes
+
+--- Starting Experiment: TicTacToe - Hooke-Jeeves ---
+Starting 10-Fold Validation on datasets/tic-tac-toe.csv...
+Optimizer: HookeJeevesOptimizer | Max Iter: 17
+--- Starting Hooke-Jeeves Optimization (Dim: 56) ---
+Initial Score: -651.6342 (CLL)
+------------------------------
+
+CONVERGENCE ACHIEVED: Improvement (0.001292) < ftol (0.1)
+------------------------------
+Optimization Finished. Best Score found: -33.2184
+1 fold 96.88%
+--- Starting Hooke-Jeeves Optimization (Dim: 56) ---
+Initial Score: -628.7971 (CLL)
+------------------------------
+
+CONVERGENCE ACHIEVED: Improvement (0.000116) < ftol (0.1)
+------------------------------
+Optimization Finished. Best Score found: -32.6021
+2 fold 96.88%
+--- Starting Hooke-Jeeves Optimization (Dim: 56) ---
+Initial Score: -594.9041 (CLL)
+------------------------------
+
+CONVERGENCE ACHIEVED: Improvement (0.000210) < ftol (0.1)
+------------------------------
+Optimization Finished. Best Score found: -37.1592
+3 fold 100.00%
+--- Starting Hooke-Jeeves Optimization (Dim: 56) ---
+Initial Score: -631.6066 (CLL)
+------------------------------
+
+CONVERGENCE ACHIEVED: Improvement (0.069561) < ftol (0.1)
+------------------------------
+Optimization Finished. Best Score found: -32.1398
+4 fold 97.92%
+--- Starting Hooke-Jeeves Optimization (Dim: 56) ---
+Initial Score: -629.2134 (CLL)
+------------------------------
+
+CONVERGENCE ACHIEVED: Improvement (0.002198) < ftol (0.1)
+------------------------------
+Optimization Finished. Best Score found: -34.6742
+5 fold 97.92%
+--- Starting Hooke-Jeeves Optimization (Dim: 56) ---
+Initial Score: -598.3313 (CLL)
+------------------------------
+
+CONVERGENCE ACHIEVED: Improvement (0.004388) < ftol (0.1)
+------------------------------
+Optimization Finished. Best Score found: -33.8164
+6 fold 97.92%
+--- Starting Hooke-Jeeves Optimization (Dim: 56) ---
+Initial Score: -613.7048 (CLL)
+------------------------------
+
+CONVERGENCE ACHIEVED: Improvement (0.014943) < ftol (0.1)
+------------------------------
+Optimization Finished. Best Score found: -35.4232
+7 fold 98.96%
+--- Starting Hooke-Jeeves Optimization (Dim: 56) ---
+Initial Score: -616.4692 (CLL)
+------------------------------
+
+CONVERGENCE ACHIEVED: Improvement (0.005673) < ftol (0.1)
+------------------------------
+Optimization Finished. Best Score found: -36.0493
+8 fold 98.96%
+--- Starting Hooke-Jeeves Optimization (Dim: 56) ---
+Initial Score: -611.5289 (CLL)
+------------------------------
+
+CONVERGENCE ACHIEVED: Improvement (0.004903) < ftol (0.1)
+------------------------------
+Optimization Finished. Best Score found: -36.0852
+9 fold 98.95%
+--- Starting Hooke-Jeeves Optimization (Dim: 56) ---
+Initial Score: -569.6459 (CLL)
+------------------------------
+
+CONVERGENCE ACHIEVED: Improvement (0.014483) < ftol (0.1)
+------------------------------
+Optimization Finished. Best Score found: -34.2038
+10 fold 98.95%
+
+average 98.33%
+Successfully finished TicTacToe - Hooke-Jeeves.
+Saved to: results_TicTacToeNAIVE_hooke.txt
+Elapsed time: 19.63 minutes
+
+--- Starting Experiment: TicTacToe - L-BFGS (Gradient) ---
+Starting 10-Fold Validation (Gradient-Based) on datasets/tic-tac-toe.csv...
+Optimizer: LBFGSOptimizerWrapper | Max Iter: 100
+--- Starting L-BFGS Optimization (Dim: 56) ---
+Initial Best Score: -651.6342 (CLL)
+------------------------------
+------------------------------
+Optimization Success!
+Total Iterations: 14
+Final Best Score: -33.3728 (CLL)
+1 fold 96.88%
+--- Starting L-BFGS Optimization (Dim: 56) ---
+Initial Best Score: -628.7971 (CLL)
+------------------------------
+------------------------------
+Optimization Success!
+Total Iterations: 17
+Final Best Score: -32.5286 (CLL)
+2 fold 96.88%
+--- Starting L-BFGS Optimization (Dim: 56) ---
+Initial Best Score: -594.9041 (CLL)
+------------------------------
+------------------------------
+Optimization Success!
+Total Iterations: 16
+Final Best Score: -36.9844 (CLL)
+3 fold 100.00%
+--- Starting L-BFGS Optimization (Dim: 56) ---
+Initial Best Score: -631.6066 (CLL)
+------------------------------
+------------------------------
+Optimization Success!
+Total Iterations: 16
+Final Best Score: -32.2762 (CLL)
+4 fold 97.92%
+--- Starting L-BFGS Optimization (Dim: 56) ---
+Initial Best Score: -629.2134 (CLL)
+------------------------------
+------------------------------
+Optimization Success!
+Total Iterations: 16
+Final Best Score: -34.5972 (CLL)
+5 fold 97.92%
+--- Starting L-BFGS Optimization (Dim: 56) ---
+Initial Best Score: -598.3313 (CLL)
+------------------------------
+------------------------------
+Optimization Success!
+Total Iterations: 18
+Final Best Score: -34.3844 (CLL)
+6 fold 97.92%
+--- Starting L-BFGS Optimization (Dim: 56) ---
+Initial Best Score: -613.7048 (CLL)
+------------------------------
+------------------------------
+Optimization Success!
+Total Iterations: 14
+Final Best Score: -36.2068 (CLL)
+7 fold 98.96%
+--- Starting L-BFGS Optimization (Dim: 56) ---
+Initial Best Score: -616.4692 (CLL)
+------------------------------
+------------------------------
+Optimization Success!
+Total Iterations: 17
+Final Best Score: -35.8584 (CLL)
+8 fold 98.96%
+--- Starting L-BFGS Optimization (Dim: 56) ---
+Initial Best Score: -611.5289 (CLL)
+------------------------------
+------------------------------
+Optimization Success!
+Total Iterations: 16
+Final Best Score: -36.3667 (CLL)
+9 fold 98.95%
+--- Starting L-BFGS Optimization (Dim: 56) ---
+Initial Best Score: -569.6459 (CLL)
+------------------------------
+------------------------------
+Optimization Success!
+Total Iterations: 16
+Final Best Score: -34.3786 (CLL)
+10 fold 98.95%
+
+average 98.33%
+Successfully finished TicTacToe - L-BFGS (Gradient).
+Saved to: results_TicTacToeNAIVE_LBFGS.txt
+Elapsed time: 0.38 minutes
+
+
+All scheduled experiments have been processed.
+

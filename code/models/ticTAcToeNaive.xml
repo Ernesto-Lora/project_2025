@@ -1,0 +1,177 @@
+<?xml version="1.0"?>
+<!DOCTYPE BIF [
+    <!ELEMENT BIF ( NETWORK )*>
+      <!ATTLIST BIF VERSION CDATA #REQUIRED>
+    <!ELEMENT NETWORK ( NAME, ( PROPERTY | VARIABLE | DEFINITION )* )>
+    <!ELEMENT NAME (#PCDATA)>
+    <!ELEMENT VARIABLE ( NAME, ( OUTCOME | PROPERTY )* ) >
+      <!ATTLIST VARIABLE TYPE (nature|decision|utility) "nature">
+    <!ELEMENT OUTCOME (#PCDATA)>
+    <!ELEMENT DEFINITION ( FOR | GIVEN | TABLE | PROPERTY )* >
+    <!ELEMENT FOR (#PCDATA)>
+    <!ELEMENT GIVEN (#PCDATA)>
+    <!ELEMENT TABLE (#PCDATA)>
+    <!ELEMENT PROPERTY (#PCDATA)>
+]>
+
+<BIF VERSION="0.3">
+<NETWORK>
+<NAME>tic-tac-toe-NaiveBayes</NAME>
+<VARIABLE TYPE="nature">
+    <NAME>top-left-square</NAME>
+    <OUTCOME>x</OUTCOME>
+    <OUTCOME>o</OUTCOME>
+    <OUTCOME>b</OUTCOME>
+    <PROPERTY>position = (100, 200)</PROPERTY>
+</VARIABLE>
+<VARIABLE TYPE="nature">
+    <NAME>top-middle-square</NAME>
+    <OUTCOME>x</OUTCOME>
+    <OUTCOME>o</OUTCOME>
+    <OUTCOME>b</OUTCOME>
+    <PROPERTY>position = (200, 200)</PROPERTY>
+</VARIABLE>
+<VARIABLE TYPE="nature">
+    <NAME>top-right-square</NAME>
+    <OUTCOME>x</OUTCOME>
+    <OUTCOME>o</OUTCOME>
+    <OUTCOME>b</OUTCOME>
+    <PROPERTY>position = (300, 200)</PROPERTY>
+</VARIABLE>
+<VARIABLE TYPE="nature">
+    <NAME>middle-left-square</NAME>
+    <OUTCOME>x</OUTCOME>
+    <OUTCOME>o</OUTCOME>
+    <OUTCOME>b</OUTCOME>
+    <PROPERTY>position = (400, 200)</PROPERTY>
+</VARIABLE>
+<VARIABLE TYPE="nature">
+    <NAME>middle-middle-square</NAME>
+    <OUTCOME>o</OUTCOME>
+    <OUTCOME>b</OUTCOME>
+    <OUTCOME>x</OUTCOME>
+    <PROPERTY>position = (500, 200)</PROPERTY>
+</VARIABLE>
+<VARIABLE TYPE="nature">
+    <NAME>middle-right-square</NAME>
+    <OUTCOME>o</OUTCOME>
+    <OUTCOME>b</OUTCOME>
+    <OUTCOME>x</OUTCOME>
+    <PROPERTY>position = (600, 200)</PROPERTY>
+</VARIABLE>
+<VARIABLE TYPE="nature">
+    <NAME>bottom-left-square</NAME>
+    <OUTCOME>x</OUTCOME>
+    <OUTCOME>o</OUTCOME>
+    <OUTCOME>b</OUTCOME>
+    <PROPERTY>position = (700, 200)</PROPERTY>
+</VARIABLE>
+<VARIABLE TYPE="nature">
+    <NAME>bottom-middle-square</NAME>
+    <OUTCOME>o</OUTCOME>
+    <OUTCOME>x</OUTCOME>
+    <OUTCOME>b</OUTCOME>
+    <PROPERTY>position = (800, 200)</PROPERTY>
+</VARIABLE>
+<VARIABLE TYPE="nature">
+    <NAME>bottom-right-square</NAME>
+    <OUTCOME>o</OUTCOME>
+    <OUTCOME>x</OUTCOME>
+    <OUTCOME>b</OUTCOME>
+    <PROPERTY>position = (900, 200)</PROPERTY>
+</VARIABLE>
+<VARIABLE TYPE="nature">
+    <NAME>Classs</NAME>
+    <OUTCOME>positive</OUTCOME>
+    <OUTCOME>negative</OUTCOME>
+    <PROPERTY>position = (500, 50)</PROPERTY>
+</VARIABLE>
+<DEFINITION>
+    <FOR>Classs</FOR>
+    <TABLE>
+        0.652490 0.347510
+    </TABLE>
+</DEFINITION>
+<DEFINITION>
+    <FOR>top-left-square</FOR>
+    <GIVEN>Classs</GIVEN>
+    <TABLE>
+        0.470588 0.370149
+        0.302067 0.438806
+        0.227345 0.191045
+    </TABLE>
+</DEFINITION>
+<DEFINITION>
+    <FOR>top-middle-square</FOR>
+    <GIVEN>Classs</GIVEN>
+    <TABLE>
+        0.359300 0.459701
+        0.365660 0.304478
+        0.275040 0.235821
+    </TABLE>
+</DEFINITION>
+<DEFINITION>
+    <FOR>top-right-square</FOR>
+    <GIVEN>Classs</GIVEN>
+    <TABLE>
+        0.470588 0.370149
+        0.302067 0.438806
+        0.227345 0.191045
+    </TABLE>
+</DEFINITION>
+<DEFINITION>
+    <FOR>middle-left-square</FOR>
+    <GIVEN>Classs</GIVEN>
+    <TABLE>
+        0.359300 0.459701
+        0.365660 0.304478
+        0.275040 0.235821
+    </TABLE>
+</DEFINITION>
+<DEFINITION>
+    <FOR>middle-middle-square</FOR>
+    <GIVEN>Classs</GIVEN>
+    <TABLE>
+        0.236884 0.576119
+        0.179650 0.146269
+        0.583466 0.277612
+    </TABLE>
+</DEFINITION>
+<DEFINITION>
+    <FOR>middle-right-square</FOR>
+    <GIVEN>Classs</GIVEN>
+    <TABLE>
+        0.365660 0.304478
+        0.275040 0.235821
+        0.359300 0.459701
+    </TABLE>
+</DEFINITION>
+<DEFINITION>
+    <FOR>bottom-left-square</FOR>
+    <GIVEN>Classs</GIVEN>
+    <TABLE>
+        0.470588 0.370149
+        0.302067 0.438806
+        0.227345 0.191045
+    </TABLE>
+</DEFINITION>
+<DEFINITION>
+    <FOR>bottom-middle-square</FOR>
+    <GIVEN>Classs</GIVEN>
+    <TABLE>
+        0.365660 0.304478
+        0.359300 0.459701
+        0.275040 0.235821
+    </TABLE>
+</DEFINITION>
+<DEFINITION>
+    <FOR>bottom-right-square</FOR>
+    <GIVEN>Classs</GIVEN>
+    <TABLE>
+        0.302067 0.438806
+        0.470588 0.370149
+        0.227345 0.191045
+    </TABLE>
+</DEFINITION>
+</NETWORK>
+</BIF>

@@ -7,7 +7,7 @@ class LBFGSOptimizerWrapper:
     Wraps the highly efficient L-BFGS-B algorithm from SciPy.
     Requires both the objective function (CLL) and its analytical gradient.
     """
-    def __init__(self, func, gradient_func, dim, max_iter=1000, bounds=None, ftol=0.1, gtol=0.1):
+    def __init__(self, func, gradient_func, dim, max_iter=1000, bounds=None, ftol=0.01, gtol=0.01):
         # The objective function (to MINIMIZE, typically -CLL)
         self.func = func
         # The function that computes the analytical gradient (vector of partial derivatives)
