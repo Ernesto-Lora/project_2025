@@ -1,0 +1,97 @@
+=== Run information ===
+
+Scheme:       weka.classifiers.bayes.NaiveBayes 
+Relation:     pimaDisc
+Instances:    768
+Attributes:   9
+              Pregnant
+              glucose
+              Diastolic
+              Triceps
+              Hour
+              Body
+              Diabetes
+              Age
+              Class
+Test mode:    10-fold cross-validation
+
+=== Classifier model (full training set) ===
+
+Naive Bayes Classifier
+
+                                Class
+Attribute                           B      A
+                               (0.35) (0.65)
+=============================================
+Pregnant
+  [0.0-6.5)                      174.0  427.0
+  [6.5-17.0]                      96.0   75.0
+  [total]                        270.0  502.0
+
+glucose
+  [127.5-199.0]                  175.0  110.0
+  [0.0-127.5)                     95.0  392.0
+  [total]                        270.0  502.0
+
+Diastolic
+  [69.0-122.0]                   183.0  269.0
+  [0.0-69.0)                      87.0  233.0
+  [total]                        270.0  502.0
+
+Triceps
+  [31.5-99.0]                    103.0  118.0
+  [0.0-7.5)                       90.0  141.0
+  [23.5-31.5)                     52.0  100.0
+  [7.5-23.5)                      27.0  145.0
+  [total]                        272.0  504.0
+
+Hour
+  [121.0-846.0]                  103.0  101.0
+  [0.0-14.5)                     140.0  237.0
+  [14.5-121.0)                    28.0  165.0
+  [total]                        271.0  503.0
+
+Body
+  [27.35-67.1]                   249.0  327.0
+  [0.0-27.35)                     21.0  175.0
+  [total]                        270.0  502.0
+
+Diabetes
+  [0.078-0.5275000000000001)     149.0  362.0
+  [0.5275000000000001-2.42]      121.0  140.0
+  [total]                        270.0  502.0
+
+Age
+  [28.5-81.0]                    198.0  205.0
+  [21.0-28.5)                     72.0  297.0
+  [total]                        270.0  502.0
+
+
+
+Time taken to build model: 0 seconds
+
+=== Stratified cross-validation ===
+=== Summary ===
+
+Correctly Classified Instances         585               76.1719 %
+Incorrectly Classified Instances       183               23.8281 %
+Kappa statistic                          0.4814
+Mean absolute error                      0.2927
+Root mean squared error                  0.4131
+Relative absolute error                 64.397  %
+Root relative squared error             86.6734 %
+Total Number of Instances              768     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.683    0.196    0.651      0.683    0.667      0.482    0.820     0.679     B
+                 0.804    0.317    0.825      0.804    0.815      0.482    0.820     0.895     A
+Weighted Avg.    0.762    0.275    0.765      0.762    0.763      0.482    0.820     0.820     
+
+=== Confusion Matrix ===
+
+   a   b   <-- classified as
+ 183  85 |   a = B
+  98 402 |   b = A
+

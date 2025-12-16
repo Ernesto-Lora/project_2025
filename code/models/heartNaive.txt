@@ -1,0 +1,127 @@
+=== Run information ===
+
+Scheme:       weka.classifiers.bayes.NaiveBayes 
+Relation:     heartDisc
+Instances:    270
+Attributes:   14
+              age
+              sex
+              chest
+              preasure
+              cholestoral
+              bloodsugar
+              electro
+              heartrate
+              angina
+              oldpeak
+              slope
+              vessels
+              thal
+              class
+Test mode:    10-fold cross-validation
+
+=== Classifier model (full training set) ===
+
+Naive Bayes Classifier
+
+                              Class
+Attribute                         B      A
+                             (0.44) (0.56)
+===========================================
+age
+  [54.5-77.0]                   81.0   59.0
+  [29.0-54.5)                   41.0   93.0
+  [total]                      122.0  152.0
+
+sex
+  [0.5-1.0]                    101.0   84.0
+  [0.0-0.5)                     21.0   68.0
+  [total]                      122.0  152.0
+
+chest
+  [3.5-4.0]                     92.0   39.0
+  [1.0-3.5)                     30.0  113.0
+  [total]                      122.0  152.0
+
+preasure
+  [107.0-143.0)                 87.0  116.0
+  [143.0-200.0]                 33.0   24.0
+  [100.5-107.0)                  1.0    9.0
+  [94.0-100.5)                   3.0    5.0
+  [total]                      124.0  154.0
+
+cholestoral
+  [245.5-564.0]                 73.0   62.0
+  [126.0-245.5)                 49.0   90.0
+  [total]                      122.0  152.0
+
+bloodsugar
+  [0.0-0.5)                    104.0  128.0
+  [0.5-1.0]                     18.0   24.0
+  [total]                      122.0  152.0
+
+electro
+  [0.5-2.0]                     75.0   66.0
+  [0.0-0.5)                     47.0   86.0
+  [total]                      122.0  152.0
+
+heartrate
+  [71.0-147.5)                  77.0   36.0
+  [147.5-202.0]                 45.0  116.0
+  [total]                      122.0  152.0
+
+angina
+  [0.0-0.5)                     55.0  128.0
+  [0.5-1.0]                     67.0   24.0
+  [total]                      122.0  152.0
+
+oldpeak
+  [1.7000000000000002-6.2]      54.0   15.0
+  [0.0-1.7000000000000002)      68.0  137.0
+  [total]                      122.0  152.0
+
+slope
+  [1.5-3.0]                     89.0   53.0
+  [1.0-1.5)                     33.0   99.0
+  [total]                      122.0  152.0
+
+vessels
+  [0.5-3.0]                     81.0   31.0
+  [0.0-0.5)                     41.0  121.0
+  [total]                      122.0  152.0
+
+thal
+  [3.0-4.5)                     34.0  120.0
+  [4.5-7.0]                     88.0   32.0
+  [total]                      122.0  152.0
+
+
+
+Time taken to build model: 0 seconds
+
+=== Stratified cross-validation ===
+=== Summary ===
+
+Correctly Classified Instances         223               82.5926 %
+Incorrectly Classified Instances        47               17.4074 %
+Kappa statistic                          0.646 
+Mean absolute error                      0.1819
+Root mean squared error                  0.3486
+Relative absolute error                 36.8348 %
+Root relative squared error             70.1642 %
+Total Number of Instances              270     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.783    0.140    0.817      0.783    0.800      0.646    0.918     0.907     B
+                 0.860    0.217    0.832      0.860    0.846      0.646    0.918     0.926     A
+Weighted Avg.    0.826    0.183    0.826      0.826    0.826      0.646    0.918     0.917     
+
+=== Confusion Matrix ===
+
+   a   b   <-- classified as
+  94  26 |   a = B
+  21 129 |   b = A
+
+

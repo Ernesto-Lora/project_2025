@@ -1,0 +1,14 @@
+Results for datasets/AustralianDisc.csv using NelderMeadOptimizer
+------------------------------------------------
+1 fold 84.06%
+2 fold 88.41%
+3 fold 86.96%
+4 fold 82.61%
+5 fold 89.86%
+6 fold 85.51%
+7 fold 89.86%
+8 fold 76.81%
+9 fold 89.86%
+10 fold 91.30%
+------------------------------------------------
+average 86.52%

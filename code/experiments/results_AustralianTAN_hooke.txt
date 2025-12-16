@@ -1,0 +1,14 @@
+Results for datasets/AustralianDisc.csv using HookeJeevesOptimizer
+------------------------------------------------
+1 fold 85.51%
+2 fold 89.86%
+3 fold 88.41%
+4 fold 81.16%
+5 fold 89.86%
+6 fold 88.41%
+7 fold 89.86%
+8 fold 81.16%
+9 fold 89.86%
+10 fold 88.41%
+------------------------------------------------
+average 87.25%

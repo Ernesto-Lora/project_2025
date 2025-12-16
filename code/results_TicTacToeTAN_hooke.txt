@@ -1,0 +1,14 @@
+Results for datasets/tic-tac-toe.csv using HookeJeevesOptimizer
+------------------------------------------------
+1 fold 100.00%
+2 fold 97.92%
+3 fold 98.96%
+4 fold 97.92%
+5 fold 98.96%
+6 fold 100.00%
+7 fold 98.96%
+8 fold 98.96%
+9 fold 98.95%
+10 fold 98.95%
+------------------------------------------------
+average 98.96%

@@ -1,0 +1,3 @@
+pgmpy
+numpy
+pandas

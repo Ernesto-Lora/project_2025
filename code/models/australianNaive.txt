@@ -1,0 +1,130 @@
+=== Run information ===
+
+Scheme:       weka.classifiers.bayes.NaiveBayes 
+Relation:     AustralianDisc
+Instances:    690
+Attributes:   15
+              A1
+              A2
+              A3
+              A4
+              A5
+              A6
+              A7
+              A8
+              A9
+              A10
+              A11
+              A12
+              A13
+              A14
+              A15
+Test mode:    10-fold cross-validation
+
+=== Classifier model (full training set) ===
+
+Naive Bayes Classifier
+
+                      Class
+Attribute                 A      B
+                     (0.55) (0.45)
+===================================
+A1
+  [0.5-1.0]            263.0  207.0
+  [0.0-0.5)            122.0  102.0
+  [total]              385.0  309.0
+
+A2
+  [13.75-38.96)        321.0  211.0
+  [38.96-80.25]         64.0   98.0
+  [total]              385.0  309.0
+
+A3
+  [4.2075-28.0]        111.0  161.0
+  [0.0-4.2075)         274.0  148.0
+  [total]              385.0  309.0
+
+A4
+  [1.5-3.0]            266.0  263.0
+  [1.0-1.5)            119.0   46.0
+  [total]              385.0  309.0
+
+A5
+  [1.0-8.5)            296.0  147.0
+  [8.5-14.0]            89.0  162.0
+  [total]              385.0  309.0
+
+A6
+  [1.5-7.5)            282.0  207.0
+  [7.5-9.0]             54.0   94.0
+  [1.0-1.5)             50.0    9.0
+  [total]              386.0  310.0
+
+A7
+  [1.1875-28.5]        111.0  208.0
+  [0.0-1.1875)         274.0  101.0
+  [total]              385.0  309.0
+
+A8
+  [0.0-0.5)            307.0   24.0
+  [0.5-1.0]             78.0  285.0
+  [total]              385.0  309.0
+
+A9
+  [0.0-0.5)            298.0   99.0
+  [0.5-1.0]             87.0  210.0
+  [total]              385.0  309.0
+
+A10
+  [0.0-2.5)            360.0  153.0
+  [2.5-67.0]            25.0  156.0
+  [total]              385.0  309.0
+
+A11
+  [0.5-1.0]            171.0  147.0
+  [0.0-0.5)            214.0  162.0
+  [total]              385.0  309.0
+
+A12
+  [1.5-3.0]            342.0  293.0
+  [1.0-1.5)             43.0   16.0
+  [total]              385.0  309.0
+
+A13
+  [99.5-2000.0]        302.0  178.0
+  [0.0-99.5)            83.0  131.0
+  [total]              385.0  309.0
+
+A14
+  [493.0-100001.0]      35.0  129.0
+  [1.0-493.0)          350.0  180.0
+  [total]              385.0  309.0
+
+
+
+Time taken to build model: 0 seconds
+
+=== Stratified cross-validation ===
+=== Summary ===
+
+Correctly Classified Instances         595               86.2319 %
+Incorrectly Classified Instances        95               13.7681 %
+Kappa statistic                          0.7188
+Mean absolute error                      0.1563
+Root mean squared error                  0.3254
+Relative absolute error                 31.6344 %
+Root relative squared error             65.4814 %
+Total Number of Instances              690     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.911    0.199    0.851      0.911    0.880      0.721    0.921     0.914     A
+                 0.801    0.089    0.879      0.801    0.838      0.721    0.921     0.913     B
+Weighted Avg.    0.862    0.150    0.863      0.862    0.861      0.721    0.921     0.913     
+
+=== Confusion Matrix ===
+
+   a   b   <-- classified as
+ 349  34 |   a = A
+  61 246 |   b = B

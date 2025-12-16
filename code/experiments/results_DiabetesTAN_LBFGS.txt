@@ -1,0 +1,14 @@
+Gradient-Based Results for datasets/diabetesDisc.csv using LBFGSOptimizerWrapper
+------------------------------------------------
+1 fold 71.43%
+2 fold 75.32%
+3 fold 70.13%
+4 fold 77.92%
+5 fold 68.83%
+6 fold 63.64%
+7 fold 80.52%
+8 fold 75.32%
+9 fold 69.74%
+10 fold 68.42%
+------------------------------------------------
+average 72.13%

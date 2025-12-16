@@ -1,0 +1,14 @@
+Results for datasets/tic-tac-toe.csv using NelderMeadOptimizer
+------------------------------------------------
+1 fold 69.79%
+2 fold 72.92%
+3 fold 76.04%
+4 fold 70.83%
+5 fold 79.17%
+6 fold 72.92%
+7 fold 62.50%
+8 fold 56.25%
+9 fold 72.63%
+10 fold 72.63%
+------------------------------------------------
+average 70.57%

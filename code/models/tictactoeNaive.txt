@@ -1,0 +1,110 @@
+=== Run information ===
+
+Scheme:       weka.classifiers.bayes.NaiveBayes 
+Relation:     tic-tac-toe
+Instances:    958
+Attributes:   10
+              top-left-square
+              top-middle-square
+              top-right-square
+              middle-left-square
+              middle-middle-square
+              middle-right-square
+              bottom-left-square
+              bottom-middle-square
+              bottom-right-square
+              Classs
+Test mode:    10-fold cross-validation
+
+=== Classifier model (full training set) ===
+
+Naive Bayes Classifier
+
+                          Class
+Attribute              positive negative
+                         (0.65)   (0.35)
+=========================================
+top-left-square
+  x                        296.0    124.0
+  o                        190.0    147.0
+  b                        143.0     64.0
+  [total]                  629.0    335.0
+
+top-middle-square
+  x                        226.0    154.0
+  o                        230.0    102.0
+  b                        173.0     79.0
+  [total]                  629.0    335.0
+
+top-right-square
+  x                        296.0    124.0
+  o                        190.0    147.0
+  b                        143.0     64.0
+  [total]                  629.0    335.0
+
+middle-left-square
+  x                        226.0    154.0
+  o                        230.0    102.0
+  b                        173.0     79.0
+  [total]                  629.0    335.0
+
+middle-middle-square
+  o                        149.0    193.0
+  b                        113.0     49.0
+  x                        367.0     93.0
+  [total]                  629.0    335.0
+
+middle-right-square
+  o                        230.0    102.0
+  b                        173.0     79.0
+  x                        226.0    154.0
+  [total]                  629.0    335.0
+
+bottom-left-square
+  x                        296.0    124.0
+  o                        190.0    147.0
+  b                        143.0     64.0
+  [total]                  629.0    335.0
+
+bottom-middle-square
+  o                        230.0    102.0
+  x                        226.0    154.0
+  b                        173.0     79.0
+  [total]                  629.0    335.0
+
+bottom-right-square
+  o                        190.0    147.0
+  x                        296.0    124.0
+  b                        143.0     64.0
+  [total]                  629.0    335.0
+
+
+
+Time taken to build model: 0 seconds
+
+=== Stratified cross-validation ===
+=== Summary ===
+
+Correctly Classified Instances         667               69.6242 %
+Incorrectly Classified Instances       291               30.3758 %
+Kappa statistic                          0.2843
+Mean absolute error                      0.3702
+Root mean squared error                  0.4319
+Relative absolute error                 81.7182 %
+Root relative squared error             90.7504 %
+Total Number of Instances              958     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.839    0.572    0.734      0.839    0.783      0.291    0.744     0.857     positive
+                 0.428    0.161    0.584      0.428    0.494      0.291    0.744     0.635     negative
+Weighted Avg.    0.696    0.430    0.682      0.696    0.683      0.291    0.744     0.780     
+
+=== Confusion Matrix ===
+
+   a   b   <-- classified as
+ 525 101 |   a = positive
+ 190 142 |   b = negative
+
+

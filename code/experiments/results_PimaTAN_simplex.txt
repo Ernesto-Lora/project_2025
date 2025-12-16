@@ -1,0 +1,14 @@
+Results for datasets/pimaDisc.csv using NelderMeadOptimizer
+------------------------------------------------
+1 fold 81.82%
+2 fold 83.12%
+3 fold 74.03%
+4 fold 70.13%
+5 fold 72.73%
+6 fold 74.03%
+7 fold 81.82%
+8 fold 81.82%
+9 fold 76.32%
+10 fold 73.68%
+------------------------------------------------
+average 76.95%

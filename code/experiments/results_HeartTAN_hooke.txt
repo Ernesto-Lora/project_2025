@@ -1,0 +1,14 @@
+Results for datasets/heartDisc.csv using HookeJeevesOptimizer
+------------------------------------------------
+1 fold 77.78%
+2 fold 88.89%
+3 fold 74.07%
+4 fold 70.37%
+5 fold 92.59%
+6 fold 77.78%
+7 fold 85.19%
+8 fold 85.19%
+9 fold 88.89%
+10 fold 74.07%
+------------------------------------------------
+average 81.48%

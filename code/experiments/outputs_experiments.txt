@@ -1,0 +1,814 @@
+Scheduled 15 experiments.
+
+--- Starting Experiment: Australian - Nelder-Mead ---
+Starting 10-Fold Validation on datasets/AustralianDisc.csv...
+Optimizer: NelderMeadOptimizer | Max Iter: 6000
+--- Starting Simplex Optimization (Dim: 118) ---
+Initial Best Score: -415.0223 (CLL)
+Initial Worst Score: -423.0590 (CLL)
+------------------------------
+------------------------------
+Optimization Finished. Best Score found: -190.3125
+1 fold 84.06%
+--- Starting Simplex Optimization (Dim: 118) ---
+Initial Best Score: -391.3324 (CLL)
+Initial Worst Score: -398.1020 (CLL)
+------------------------------
+------------------------------
+Optimization Finished. Best Score found: -194.9813
+2 fold 88.41%
+--- Starting Simplex Optimization (Dim: 118) ---
+Initial Best Score: -476.7947 (CLL)
+Initial Worst Score: -486.1746 (CLL)
+------------------------------
+------------------------------
+Optimization Finished. Best Score found: -199.3383
+3 fold 86.96%
+--- Starting Simplex Optimization (Dim: 118) ---
+Initial Best Score: -462.2526 (CLL)
+Initial Worst Score: -470.5974 (CLL)
+------------------------------
+------------------------------
+Optimization Finished. Best Score found: -191.5051
+4 fold 82.61%
+--- Starting Simplex Optimization (Dim: 118) ---
+Initial Best Score: -481.5584 (CLL)
+Initial Worst Score: -490.0766 (CLL)
+------------------------------
+------------------------------
+Optimization Finished. Best Score found: -197.2694
+5 fold 89.86%
+--- Starting Simplex Optimization (Dim: 118) ---
+Initial Best Score: -396.9087 (CLL)
+Initial Worst Score: -403.3762 (CLL)
+------------------------------
+------------------------------
+Optimization Finished. Best Score found: -198.1158
+6 fold 85.51%
+--- Starting Simplex Optimization (Dim: 118) ---
+Initial Best Score: -434.3992 (CLL)
+Initial Worst Score: -442.5455 (CLL)
+------------------------------
+------------------------------
+Optimization Finished. Best Score found: -198.6510
+7 fold 89.86%
+--- Starting Simplex Optimization (Dim: 118) ---
+Initial Best Score: -482.8612 (CLL)
+Initial Worst Score: -491.8697 (CLL)
+------------------------------
+------------------------------
+Optimization Finished. Best Score found: -194.8519
+8 fold 76.81%
+--- Starting Simplex Optimization (Dim: 118) ---
+Initial Best Score: -448.2758 (CLL)
+Initial Worst Score: -456.8866 (CLL)
+------------------------------
+------------------------------
+Optimization Finished. Best Score found: -187.6284
+9 fold 89.86%
+--- Starting Simplex Optimization (Dim: 118) ---
+Initial Best Score: -478.2483 (CLL)
+Initial Worst Score: -487.3962 (CLL)
+------------------------------
+------------------------------
+Optimization Finished. Best Score found: -201.5722
+10 fold 91.30%
+
+average 86.52%
+Successfully finished Australian - Nelder-Mead.
+Saved to: results_AustralianTAN_simplex.txt
+Elapsed time: 50.76 minutes
+
+--- Starting Experiment: Australian - Hooke-Jeeves ---
+Starting 10-Fold Validation on datasets/AustralianDisc.csv...
+Optimizer: HookeJeevesOptimizer | Max Iter: 17
+--- Starting Hooke-Jeeves Optimization (Dim: 118) ---
+Initial Score: -418.9833 (CLL)
+------------------------------
+Iter 1: Best: -418.9833 | Step: 0.05000 | Action: PATTERN MOVE (Accepted). New Score: -250.4172
+Iter 2: Best: -250.4172 | Step: 0.05000 | Action: PATTERN MOVE (Accepted). New Score: -205.9838
+Iter 3: Best: -205.9838 | Step: 0.05000 | Action: EXPLORATION (Accepted). New Score: -195.4893
+Iter 4: Best: -195.4893 | Step: 0.05000 | Action: PATTERN MOVE (Accepted). New Score: -180.3961
+Iter 5: Best: -180.3961 | Step: 0.05000 | Action: PATTERN MOVE (Accepted). New Score: -178.1761
+Iter 6: Best: -178.1761 | Step: 0.05000 | Action: EXPLORATION (Accepted). New Score: -175.2440
+Iter 7: Best: -175.2440 | Step: 0.05000 | Action: PATTERN MOVE (Accepted). New Score: -172.7001
+Iter 8: Best: -172.7001 | Step: 0.05000 | Action: PATTERN MOVE (Accepted). New Score: -171.4973
+Iter 9: Best: -171.4973 | Step: 0.05000 | Action: PATTERN MOVE (Accepted). New Score: -169.3190
+Iter 10: Best: -169.3190 | Step: 0.05000 | Action: PATTERN MOVE (Accepted). New Score: -168.2251
+Iter 11: Best: -168.2251 | Step: 0.05000 | Action: PATTERN MOVE (Accepted). New Score: -167.9556
+Iter 12: Best: -167.9556 | Step: 0.05000 | Action: PATTERN MOVE (Accepted). New Score: -167.8347
+Iter 13: Best: -167.8347 | Step: 0.05000 | Action: EXPLORATION (Accepted). New Score: -167.7967
+
+CONVERGENCE ACHIEVED: Improvement (0.038051) < ftol (0.1)
+------------------------------
+Optimization Finished. Best Score found: -167.7967
+1 fold 85.51%
+--- Starting Hooke-Jeeves Optimization (Dim: 118) ---
+Initial Score: -394.6773 (CLL)
+------------------------------
+Iter 1: Best: -394.6773 | Step: 0.05000 | Action: PATTERN MOVE (Accepted). New Score: -233.8054
+Iter 2: Best: -233.8054 | Step: 0.05000 | Action: PATTERN MOVE (Accepted). New Score: -207.6978
+Iter 3: Best: -207.6978 | Step: 0.05000 | Action: EXPLORATION (Accepted). New Score: -196.7364
+Iter 4: Best: -196.7364 | Step: 0.05000 | Action: PATTERN MOVE (Accepted). New Score: -187.8197
+Iter 5: Best: -187.8197 | Step: 0.05000 | Action: PATTERN MOVE (Accepted). New Score: -184.5471
+Iter 6: Best: -184.5471 | Step: 0.05000 | Action: PATTERN MOVE (Accepted). New Score: -180.1250
+Iter 7: Best: -180.1250 | Step: 0.05000 | Action: PATTERN MOVE (Accepted). New Score: -178.0201
+Iter 8: Best: -178.0201 | Step: 0.05000 | Action: PATTERN MOVE (Accepted). New Score: -176.0513
+Iter 9: Best: -176.0513 | Step: 0.05000 | Action: PATTERN MOVE (Accepted). New Score: -175.7092
+Iter 10: Best: -175.7092 | Step: 0.05000 | Action: EXPLORATION (Accepted). New Score: -175.4894
+Iter 11: Best: -175.4894 | Step: 0.05000 | Action: PATTERN MOVE (Accepted). New Score: -175.4312
+
+CONVERGENCE ACHIEVED: Improvement (0.058283) < ftol (0.1)
+------------------------------
+Optimization Finished. Best Score found: -175.4312
+2 fold 89.86%
+--- Starting Hooke-Jeeves Optimization (Dim: 118) ---
+Initial Score: -481.4228 (CLL)
+------------------------------
+Iter 1: Best: -481.4228 | Step: 0.05000 | Action: PATTERN MOVE (Accepted). New Score: -255.0386
+Iter 2: Best: -255.0386 | Step: 0.05000 | Action: PATTERN MOVE (Accepted). New Score: -217.7916
+Iter 3: Best: -217.7916 | Step: 0.05000 | Action: EXPLORATION (Accepted). New Score: -202.1746
+Iter 4: Best: -202.1746 | Step: 0.05000 | Action: PATTERN MOVE (Accepted). New Score: -192.0440
+Iter 5: Best: -192.0440 | Step: 0.05000 | Action: EXPLORATION (Accepted). New Score: -188.6224
+Iter 6: Best: -188.6224 | Step: 0.05000 | Action: PATTERN MOVE (Accepted). New Score: -185.1902
+Iter 7: Best: -185.1902 | Step: 0.05000 | Action: PATTERN MOVE (Accepted). New Score: -182.0430
+Iter 8: Best: -182.0430 | Step: 0.05000 | Action: PATTERN MOVE (Accepted). New Score: -179.2821
+Iter 9: Best: -179.2821 | Step: 0.05000 | Action: PATTERN MOVE (Accepted). New Score: -177.8254
+Iter 10: Best: -177.8254 | Step: 0.05000 | Action: PATTERN MOVE (Accepted). New Score: -177.5232
+Iter 11: Best: -177.5232 | Step: 0.05000 | Action: PATTERN MOVE (Accepted). New Score: -177.1036
+Iter 12: Best: -177.1036 | Step: 0.05000 | Action: PATTERN MOVE (Accepted). New Score: -176.9944
+Iter 13: Best: -176.9944 | Step: 0.05000 | Action: PATTERN MOVE (Accepted). New Score: -176.9635
+
+CONVERGENCE ACHIEVED: Improvement (0.030933) < ftol (0.1)
+------------------------------
+Optimization Finished. Best Score found: -176.9635
+3 fold 88.41%
+--- Starting Hooke-Jeeves Optimization (Dim: 118) ---
+Initial Score: -466.3629 (CLL)
+------------------------------
+Iter 1: Best: -466.3629 | Step: 0.05000 | Action: PATTERN MOVE (Accepted). New Score: -249.2729
+Iter 2: Best: -249.2729 | Step: 0.05000 | Action: PATTERN MOVE (Accepted). New Score: -213.5248
+Iter 3: Best: -213.5248 | Step: 0.05000 | Action: EXPLORATION (Accepted). New Score: -199.7971
+Iter 4: Best: -199.7971 | Step: 0.05000 | Action: PATTERN MOVE (Accepted). New Score: -187.3804
+Iter 5: Best: -187.3804 | Step: 0.05000 | Action: EXPLORATION (Accepted). New Score: -185.0190
+Iter 6: Best: -185.0190 | Step: 0.05000 | Action: PATTERN MOVE (Accepted). New Score: -181.8307
+Iter 7: Best: -181.8307 | Step: 0.05000 | Action: PATTERN MOVE (Accepted). New Score: -178.8331
+Iter 8: Best: -178.8331 | Step: 0.05000 | Action: PATTERN MOVE (Accepted). New Score: -176.6431
+Iter 9: Best: -176.6431 | Step: 0.05000 | Action: PATTERN MOVE (Accepted). New Score: -175.1627
+Iter 10: Best: -175.1627 | Step: 0.05000 | Action: PATTERN MOVE (Accepted). New Score: -174.6917
+Iter 11: Best: -174.6917 | Step: 0.05000 | Action: PATTERN MOVE (Accepted). New Score: -174.5766
+Iter 12: Best: -174.5766 | Step: 0.05000 | Action: PATTERN MOVE (Accepted). New Score: -174.5166
+
+CONVERGENCE ACHIEVED: Improvement (0.059980) < ftol (0.1)
+------------------------------
+Optimization Finished. Best Score found: -174.5166
+4 fold 81.16%
+--- Starting Hooke-Jeeves Optimization (Dim: 118) ---
+Initial Score: -485.7705 (CLL)
+------------------------------
+Iter 1: Best: -485.7705 | Step: 0.05000 | Action: PATTERN MOVE (Accepted). New Score: -267.8580
+Iter 2: Best: -267.8580 | Step: 0.05000 | Action: PATTERN MOVE (Accepted). New Score: -226.5263
+Iter 3: Best: -226.5263 | Step: 0.05000 | Action: EXPLORATION (Accepted). New Score: -211.0254
+Iter 4: Best: -211.0254 | Step: 0.05000 | Action: PATTERN MOVE (Accepted). New Score: -194.6905
+Iter 5: Best: -194.6905 | Step: 0.05000 | Action: EXPLORATION (Accepted). New Score: -192.1211
+Iter 6: Best: -192.1211 | Step: 0.05000 | Action: PATTERN MOVE (Accepted). New Score: -189.3057
+Iter 7: Best: -189.3057 | Step: 0.05000 | Action: PATTERN MOVE (Accepted). New Score: -186.9632
+Iter 8: Best: -186.9632 | Step: 0.05000 | Action: PATTERN MOVE (Accepted). New Score: -184.8622
+Iter 9: Best: -184.8622 | Step: 0.05000 | Action: PATTERN MOVE (Accepted). New Score: -183.8252
+Iter 10: Best: -183.8252 | Step: 0.05000 | Action: PATTERN MOVE (Accepted). New Score: -183.3823
+Iter 11: Best: -183.3823 | Step: 0.05000 | Action: PATTERN MOVE (Accepted). New Score: -183.1761
+Iter 12: Best: -183.1761 | Step: 0.05000 | Action: PATTERN MOVE (Accepted). New Score: -183.1103
+
+CONVERGENCE ACHIEVED: Improvement (0.065788) < ftol (0.1)
+------------------------------
+Optimization Finished. Best Score found: -183.1103
+5 fold 89.86%
+--- Starting Hooke-Jeeves Optimization (Dim: 118) ---
+Initial Score: -400.0968 (CLL)
+------------------------------
+Iter 1: Best: -400.0968 | Step: 0.05000 | Action: PATTERN MOVE (Accepted). New Score: -243.5177
+Iter 2: Best: -243.5177 | Step: 0.05000 | Action: PATTERN MOVE (Accepted). New Score: -209.8785
+Iter 3: Best: -209.8785 | Step: 0.05000 | Action: EXPLORATION (Accepted). New Score: -199.7507
+Iter 4: Best: -199.7507 | Step: 0.05000 | Action: PATTERN MOVE (Accepted). New Score: -191.3195
+Iter 5: Best: -191.3195 | Step: 0.05000 | Action: PATTERN MOVE (Accepted). New Score: -187.7063
+Iter 6: Best: -187.7063 | Step: 0.05000 | Action: PATTERN MOVE (Accepted). New Score: -184.6327
+Iter 7: Best: -184.6327 | Step: 0.05000 | Action: PATTERN MOVE (Accepted). New Score: -182.7469
+Iter 8: Best: -182.7469 | Step: 0.05000 | Action: PATTERN MOVE (Accepted). New Score: -180.6865
+Iter 9: Best: -180.6865 | Step: 0.05000 | Action: PATTERN MOVE (Accepted). New Score: -180.3159
+Iter 10: Best: -180.3159 | Step: 0.05000 | Action: EXPLORATION (Accepted). New Score: -180.0245
+Iter 11: Best: -180.0245 | Step: 0.05000 | Action: PATTERN MOVE (Accepted). New Score: -179.9166
+Iter 12: Best: -179.9166 | Step: 0.05000 | Action: PATTERN MOVE (Accepted). New Score: -179.8481
+
+CONVERGENCE ACHIEVED: Improvement (0.068555) < ftol (0.1)
+------------------------------
+Optimization Finished. Best Score found: -179.8481
+6 fold 88.41%
+--- Starting Hooke-Jeeves Optimization (Dim: 118) ---
+Initial Score: -438.4068 (CLL)
+------------------------------
+Iter 1: Best: -438.4068 | Step: 0.05000 | Action: PATTERN MOVE (Accepted). New Score: -245.8234
+Iter 2: Best: -245.8234 | Step: 0.05000 | Action: PATTERN MOVE (Accepted). New Score: -212.7995
+Iter 3: Best: -212.7995 | Step: 0.05000 | Action: EXPLORATION (Accepted). New Score: -198.8875
+Iter 4: Best: -198.8875 | Step: 0.05000 | Action: PATTERN MOVE (Accepted). New Score: -189.8833
+Iter 5: Best: -189.8833 | Step: 0.05000 | Action: EXPLORATION (Accepted). New Score: -187.2015
+Iter 6: Best: -187.2015 | Step: 0.05000 | Action: PATTERN MOVE (Accepted). New Score: -184.3299
+Iter 7: Best: -184.3299 | Step: 0.05000 | Action: PATTERN MOVE (Accepted). New Score: -181.1918
+Iter 8: Best: -181.1918 | Step: 0.05000 | Action: PATTERN MOVE (Accepted). New Score: -178.7622
+Iter 9: Best: -178.7622 | Step: 0.05000 | Action: PATTERN MOVE (Accepted). New Score: -177.1375
+Iter 10: Best: -177.1375 | Step: 0.05000 | Action: PATTERN MOVE (Accepted). New Score: -176.5439
+Iter 11: Best: -176.5439 | Step: 0.05000 | Action: PATTERN MOVE (Accepted). New Score: -176.3909
+Iter 12: Best: -176.3909 | Step: 0.05000 | Action: PATTERN MOVE (Accepted). New Score: -176.3098
+
+CONVERGENCE ACHIEVED: Improvement (0.081084) < ftol (0.1)
+------------------------------
+Optimization Finished. Best Score found: -176.3098
+7 fold 89.86%
+--- Starting Hooke-Jeeves Optimization (Dim: 118) ---
+Initial Score: -487.3015 (CLL)
+------------------------------
+Iter 1: Best: -487.3015 | Step: 0.05000 | Action: PATTERN MOVE (Accepted). New Score: -248.6372
+Iter 2: Best: -248.6372 | Step: 0.05000 | Action: PATTERN MOVE (Accepted). New Score: -205.5167
+Iter 3: Best: -205.5167 | Step: 0.05000 | Action: EXPLORATION (Accepted). New Score: -192.5888
+Iter 4: Best: -192.5888 | Step: 0.05000 | Action: PATTERN MOVE (Accepted). New Score: -181.1946
+Iter 5: Best: -181.1946 | Step: 0.05000 | Action: EXPLORATION (Accepted). New Score: -178.8351
+Iter 6: Best: -178.8351 | Step: 0.05000 | Action: PATTERN MOVE (Accepted). New Score: -175.3163
+Iter 7: Best: -175.3163 | Step: 0.05000 | Action: PATTERN MOVE (Accepted). New Score: -172.4719
+Iter 8: Best: -172.4719 | Step: 0.05000 | Action: PATTERN MOVE (Accepted). New Score: -170.3255
+Iter 9: Best: -170.3255 | Step: 0.05000 | Action: PATTERN MOVE (Accepted). New Score: -169.1529
+Iter 10: Best: -169.1529 | Step: 0.05000 | Action: PATTERN MOVE (Accepted). New Score: -168.7561
+Iter 11: Best: -168.7561 | Step: 0.05000 | Action: PATTERN MOVE (Accepted). New Score: -168.6312
+Iter 12: Best: -168.6312 | Step: 0.05000 | Action: PATTERN MOVE (Accepted). New Score: -168.5544
+
+CONVERGENCE ACHIEVED: Improvement (0.076815) < ftol (0.1)
+------------------------------
+Optimization Finished. Best Score found: -168.5544
+8 fold 81.16%
+--- Starting Hooke-Jeeves Optimization (Dim: 118) ---
+Initial Score: -452.5224 (CLL)
+------------------------------
+Iter 1: Best: -452.5224 | Step: 0.05000 | Action: PATTERN MOVE (Accepted). New Score: -241.6973
+Iter 2: Best: -241.6973 | Step: 0.05000 | Action: PATTERN MOVE (Accepted). New Score: -206.6513
+Iter 3: Best: -206.6513 | Step: 0.05000 | Action: EXPLORATION (Accepted). New Score: -194.4783
+Iter 4: Best: -194.4783 | Step: 0.05000 | Action: PATTERN MOVE (Accepted). New Score: -185.4021
+Iter 5: Best: -185.4021 | Step: 0.05000 | Action: EXPLORATION (Accepted). New Score: -183.0603
+Iter 6: Best: -183.0603 | Step: 0.05000 | Action: PATTERN MOVE (Accepted). New Score: -180.0534
+Iter 7: Best: -180.0534 | Step: 0.05000 | Action: PATTERN MOVE (Accepted). New Score: -178.1826
+Iter 8: Best: -178.1826 | Step: 0.05000 | Action: PATTERN MOVE (Accepted). New Score: -176.7730
+Iter 9: Best: -176.7730 | Step: 0.05000 | Action: PATTERN MOVE (Accepted). New Score: -176.1697
+Iter 10: Best: -176.1697 | Step: 0.05000 | Action: PATTERN MOVE (Accepted). New Score: -175.9316
+Iter 11: Best: -175.9316 | Step: 0.05000 | Action: PATTERN MOVE (Accepted). New Score: -175.7612
+Iter 12: Best: -175.7612 | Step: 0.05000 | Action: PATTERN MOVE (Accepted). New Score: -175.7346
+
+CONVERGENCE ACHIEVED: Improvement (0.026636) < ftol (0.1)
+------------------------------
+Optimization Finished. Best Score found: -175.7346
+9 fold 89.86%
+--- Starting Hooke-Jeeves Optimization (Dim: 118) ---
+Initial Score: -482.7502 (CLL)
+------------------------------
+Iter 1: Best: -482.7502 | Step: 0.05000 | Action: PATTERN MOVE (Accepted). New Score: -255.8914
+Iter 2: Best: -255.8914 | Step: 0.05000 | Action: PATTERN MOVE (Accepted). New Score: -228.9200
+Iter 3: Best: -228.9200 | Step: 0.05000 | Action: EXPLORATION (Accepted). New Score: -210.0490
+Iter 4: Best: -210.0490 | Step: 0.05000 | Action: PATTERN MOVE (Accepted). New Score: -195.5599
+Iter 5: Best: -195.5599 | Step: 0.05000 | Action: EXPLORATION (Accepted). New Score: -192.6618
+Iter 6: Best: -192.6618 | Step: 0.05000 | Action: PATTERN MOVE (Accepted). New Score: -189.4644
+Iter 7: Best: -189.4644 | Step: 0.05000 | Action: PATTERN MOVE (Accepted). New Score: -186.7197
+Iter 8: Best: -186.7197 | Step: 0.05000 | Action: PATTERN MOVE (Accepted). New Score: -184.1805
+Iter 9: Best: -184.1805 | Step: 0.05000 | Action: PATTERN MOVE (Accepted). New Score: -182.3161
+Iter 10: Best: -182.3161 | Step: 0.05000 | Action: PATTERN MOVE (Accepted). New Score: -181.7860
+Iter 11: Best: -181.7860 | Step: 0.05000 | Action: PATTERN MOVE (Accepted). New Score: -181.6026
+Iter 12: Best: -181.6026 | Step: 0.05000 | Action: PATTERN MOVE (Accepted). New Score: -181.4972
+Iter 13: Best: -181.4972 | Step: 0.05000 | Action: PATTERN MOVE (Accepted). New Score: -181.4738
+
+CONVERGENCE ACHIEVED: Improvement (0.023459) < ftol (0.1)
+------------------------------
+Optimization Finished. Best Score found: -181.4738
+10 fold 88.41%
+
+average 87.25%
+Successfully finished Australian - Hooke-Jeeves.
+Saved to: results_AustralianTAN_hooke.txt
+Elapsed time: 41.31 minutes
+
+--- Starting Experiment: Australian - L-BFGS (Gradient) ---
+Starting 10-Fold Validation (Gradient-Based) on datasets/AustralianDisc.csv...
+Optimizer: LBFGSOptimizerWrapper | Max Iter: 100
+--- Starting L-BFGS Optimization (Dim: 118) ---
+Initial Best Score: -418.9833 (CLL)
+------------------------------
+------------------------------
+Optimization Success!
+Total Iterations: 3
+Final Best Score: -199.6830 (CLL)
+1 fold 86.96%
+--- Starting L-BFGS Optimization (Dim: 118) ---
+Initial Best Score: -394.6773 (CLL)
+------------------------------
+------------------------------
+Optimization Success!
+Total Iterations: 3
+Final Best Score: -206.9240 (CLL)
+2 fold 91.30%
+--- Starting L-BFGS Optimization (Dim: 118) ---
+Initial Best Score: -481.4228 (CLL)
+------------------------------
+------------------------------
+Optimization Success!
+Total Iterations: 3
+Final Best Score: -214.3055 (CLL)
+3 fold 84.06%
+--- Starting L-BFGS Optimization (Dim: 118) ---
+Initial Best Score: -466.3629 (CLL)
+------------------------------
+------------------------------
+Optimization Success!
+Total Iterations: 4
+Final Best Score: -197.1565 (CLL)
+4 fold 85.51%
+--- Starting L-BFGS Optimization (Dim: 118) ---
+Initial Best Score: -485.7705 (CLL)
+------------------------------
+------------------------------
+Optimization Success!
+Total Iterations: 3
+Final Best Score: -212.2631 (CLL)
+5 fold 88.41%
+--- Starting L-BFGS Optimization (Dim: 118) ---
+Initial Best Score: -400.0968 (CLL)
+------------------------------
+------------------------------
+Optimization Success!
+Total Iterations: 3
+Final Best Score: -206.5004 (CLL)
+6 fold 89.86%
+--- Starting L-BFGS Optimization (Dim: 118) ---
+Initial Best Score: -438.4068 (CLL)
+------------------------------
+------------------------------
+Optimization Success!
+Total Iterations: 4
+Final Best Score: -200.9199 (CLL)
+7 fold 91.30%
+--- Starting L-BFGS Optimization (Dim: 118) ---
+Initial Best Score: -487.3015 (CLL)
+------------------------------
+------------------------------
+Optimization Success!
+Total Iterations: 4
+Final Best Score: -189.2517 (CLL)
+8 fold 79.71%
+--- Starting L-BFGS Optimization (Dim: 118) ---
+Initial Best Score: -452.5224 (CLL)
+------------------------------
+------------------------------
+Optimization Success!
+Total Iterations: 3
+Final Best Score: -204.2566 (CLL)
+9 fold 82.61%
+--- Starting L-BFGS Optimization (Dim: 118) ---
+Initial Best Score: -482.7502 (CLL)
+------------------------------
+
+ERROR:root:Failed Diabetes - Nelder-Mead: 'class'
+ERROR:root:Failed Diabetes - Hooke-Jeeves: 'class'
+ERROR:root:Failed Diabetes - L-BFGS (Gradient): 'class'
+
+------------------------------
+Optimization Success!
+Total Iterations: 4
+Final Best Score: -205.7223 (CLL)
+10 fold 91.30%
+
+average 87.10%
+Successfully finished Australian - L-BFGS (Gradient).
+Saved to: results_AustralianTAN_LBFGS.txt
+Elapsed time: 0.11 minutes
+
+--- Starting Experiment: Diabetes - Nelder-Mead ---
+Starting 10-Fold Validation on datasets/diabetesDisc.csv...
+Optimizer: NelderMeadOptimizer | Max Iter: 6000
+--- Starting Simplex Optimization (Dim: 106) ---
+CRITICAL ERROR in Diabetes - Nelder-Mead: 'class'
+--- Starting Experiment: Diabetes - Hooke-Jeeves ---
+Starting 10-Fold Validation on datasets/diabetesDisc.csv...
+Optimizer: HookeJeevesOptimizer | Max Iter: 17
+--- Starting Hooke-Jeeves Optimization (Dim: 106) ---
+CRITICAL ERROR in Diabetes - Hooke-Jeeves: 'class'
+--- Starting Experiment: Diabetes - L-BFGS (Gradient) ---
+Starting 10-Fold Validation (Gradient-Based) on datasets/diabetesDisc.csv...
+Optimizer: LBFGSOptimizerWrapper | Max Iter: 100
+--- Starting L-BFGS Optimization (Dim: 106) ---
+CRITICAL ERROR in Diabetes - L-BFGS (Gradient): 'class'
+--- Starting Experiment: Heart - Nelder-Mead ---
+Starting 10-Fold Validation on datasets/heartDisc.csv...
+Optimizer: NelderMeadOptimizer | Max Iter: 6000
+--- Starting Simplex Optimization (Dim: 110) ---
+Initial Best Score: -194.6568 (CLL)
+Initial Worst Score: -197.2737 (CLL)
+------------------------------
+CONVERGENCE ACHIEVED at Iter 5452.
+Standard Deviation of Scores (0.099758) < Tolerance (0.1).
+------------------------------
+Optimization Finished. Best Score found: -74.4069
+1 fold 81.48%
+--- Starting Simplex Optimization (Dim: 110) ---
+Initial Best Score: -153.1018 (CLL)
+Initial Worst Score: -155.0022 (CLL)
+------------------------------
+CONVERGENCE ACHIEVED at Iter 5667.
+Standard Deviation of Scores (0.099612) < Tolerance (0.1).
+------------------------------
+Optimization Finished. Best Score found: -75.8295
+2 fold 96.30%
+--- Starting Simplex Optimization (Dim: 110) ---
+Initial Best Score: -177.0132 (CLL)
+Initial Worst Score: -180.5298 (CLL)
+------------------------------
+------------------------------
+Optimization Finished. Best Score found: -69.9819
+3 fold 70.37%
+--- Starting Simplex Optimization (Dim: 110) ---
+Initial Best Score: -168.8069 (CLL)
+Initial Worst Score: -171.1009 (CLL)
+------------------------------
+------------------------------
+Optimization Finished. Best Score found: -70.0746
+4 fold 70.37%
+--- Starting Simplex Optimization (Dim: 110) ---
+Initial Best Score: -162.8411 (CLL)
+Initial Worst Score: -164.8593 (CLL)
+------------------------------
+CONVERGENCE ACHIEVED at Iter 5999.
+Standard Deviation of Scores (0.099398) < Tolerance (0.1).
+------------------------------
+Optimization Finished. Best Score found: -74.9881
+5 fold 88.89%
+--- Starting Simplex Optimization (Dim: 110) ---
+Initial Best Score: -166.4814 (CLL)
+Initial Worst Score: -168.7609 (CLL)
+------------------------------
+CONVERGENCE ACHIEVED at Iter 5819.
+Standard Deviation of Scores (0.098960) < Tolerance (0.1).
+------------------------------
+Optimization Finished. Best Score found: -75.3676
+6 fold 81.48%
+--- Starting Simplex Optimization (Dim: 110) ---
+Initial Best Score: -179.0187 (CLL)
+Initial Worst Score: -182.0026 (CLL)
+------------------------------
+CONVERGENCE ACHIEVED at Iter 5840.
+Standard Deviation of Scores (0.099346) < Tolerance (0.1).
+------------------------------
+Optimization Finished. Best Score found: -74.0974
+7 fold 85.19%
+--- Starting Simplex Optimization (Dim: 110) ---
+Initial Best Score: -151.3461 (CLL)
+Initial Worst Score: -153.2963 (CLL)
+------------------------------
+CONVERGENCE ACHIEVED at Iter 5498.
+Standard Deviation of Scores (0.099776) < Tolerance (0.1).
+------------------------------
+Optimization Finished. Best Score found: -71.1257
+8 fold 88.89%
+--- Starting Simplex Optimization (Dim: 110) ---
+Initial Best Score: -161.2827 (CLL)
+Initial Worst Score: -163.1372 (CLL)
+------------------------------
+CONVERGENCE ACHIEVED at Iter 5857.
+Standard Deviation of Scores (0.098904) < Tolerance (0.1).
+------------------------------
+Optimization Finished. Best Score found: -72.7304
+9 fold 85.19%
+--- Starting Simplex Optimization (Dim: 110) ---
+Initial Best Score: -174.3790 (CLL)
+Initial Worst Score: -176.5214 (CLL)
+------------------------------
+CONVERGENCE ACHIEVED at Iter 5867.
+Standard Deviation of Scores (0.099726) < Tolerance (0.1).
+------------------------------
+Optimization Finished. Best Score found: -71.4629
+10 fold 77.78%
+
+average 82.59%
+Successfully finished Heart - Nelder-Mead.
+Saved to: results_HeartTAN_simplex.txt
+Elapsed time: 18.71 minutes
+
+--- Starting Experiment: Heart - Hooke-Jeeves ---
+Starting 10-Fold Validation on datasets/heartDisc.csv...
+Optimizer: HookeJeevesOptimizer | Max Iter: 17
+--- Starting Hooke-Jeeves Optimization (Dim: 110) ---
+Initial Score: -195.9484 (CLL)
+------------------------------
+Iter 1: Best: -195.9484 | Step: 0.05000 | Action: PATTERN MOVE (Accepted). New Score: -94.9604
+Iter 2: Best: -94.9604 | Step: 0.05000 | Action: PATTERN MOVE (Accepted). New Score: -79.8416
+Iter 3: Best: -79.8416 | Step: 0.05000 | Action: EXPLORATION (Accepted). New Score: -75.1269
+Iter 4: Best: -75.1269 | Step: 0.05000 | Action: PATTERN MOVE (Accepted). New Score: -71.7406
+Iter 5: Best: -71.7406 | Step: 0.05000 | Action: PATTERN MOVE (Accepted). New Score: -70.7353
+Iter 6: Best: -70.7353 | Step: 0.05000 | Action: PATTERN MOVE (Accepted). New Score: -69.6063
+Iter 7: Best: -69.6063 | Step: 0.05000 | Action: PATTERN MOVE (Accepted). New Score: -68.9146
+Iter 8: Best: -68.9146 | Step: 0.05000 | Action: EXPLORATION (Accepted). New Score: -68.6897
+Iter 9: Best: -68.6897 | Step: 0.05000 | Action: PATTERN MOVE (Accepted). New Score: -68.5499
+Iter 10: Best: -68.5499 | Step: 0.05000 | Action: EXPLORATION (Accepted). New Score: -68.5213
+
+CONVERGENCE ACHIEVED: Improvement (0.028577) < ftol (0.1)
+------------------------------
+Optimization Finished. Best Score found: -68.5213
+1 fold 77.78%
+--- Starting Hooke-Jeeves Optimization (Dim: 110) ---
+Initial Score: -154.0328 (CLL)
+------------------------------
+Iter 1: Best: -154.0328 | Step: 0.05000 | Action: PATTERN MOVE (Accepted). New Score: -93.2092
+Iter 2: Best: -93.2092 | Step: 0.05000 | Action: PATTERN MOVE (Accepted). New Score: -81.2890
+Iter 3: Best: -81.2890 | Step: 0.05000 | Action: EXPLORATION (Accepted). New Score: -77.9505
+Iter 4: Best: -77.9505 | Step: 0.05000 | Action: PATTERN MOVE (Accepted). New Score: -73.6653
+Iter 5: Best: -73.6653 | Step: 0.05000 | Action: PATTERN MOVE (Accepted). New Score: -72.1383
+Iter 6: Best: -72.1383 | Step: 0.05000 | Action: EXPLORATION (Accepted). New Score: -71.7361
+Iter 7: Best: -71.7361 | Step: 0.05000 | Action: PATTERN MOVE (Accepted). New Score: -71.4800
+Iter 8: Best: -71.4800 | Step: 0.05000 | Action: PATTERN MOVE (Accepted). New Score: -71.3054
+Iter 9: Best: -71.3054 | Step: 0.05000 | Action: PATTERN MOVE (Accepted). New Score: -71.1082
+Iter 10: Best: -71.1082 | Step: 0.05000 | Action: PATTERN MOVE (Accepted). New Score: -71.0747
+
+CONVERGENCE ACHIEVED: Improvement (0.033566) < ftol (0.1)
+------------------------------
+Optimization Finished. Best Score found: -71.0747
+2 fold 88.89%
+--- Starting Hooke-Jeeves Optimization (Dim: 110) ---
+Initial Score: -178.6997 (CLL)
+------------------------------
+Iter 1: Best: -178.6997 | Step: 0.05000 | Action: PATTERN MOVE (Accepted). New Score: -90.1168
+Iter 2: Best: -90.1168 | Step: 0.05000 | Action: PATTERN MOVE (Accepted). New Score: -80.2182
+Iter 3: Best: -80.2182 | Step: 0.05000 | Action: EXPLORATION (Accepted). New Score: -73.2320
+Iter 4: Best: -73.2320 | Step: 0.05000 | Action: PATTERN MOVE (Accepted). New Score: -69.6438
+Iter 5: Best: -69.6438 | Step: 0.05000 | Action: PATTERN MOVE (Accepted). New Score: -67.0562
+Iter 6: Best: -67.0562 | Step: 0.05000 | Action: PATTERN MOVE (Accepted). New Score: -65.2625
+Iter 7: Best: -65.2625 | Step: 0.05000 | Action: EXPLORATION (Accepted). New Score: -64.7999
+Iter 8: Best: -64.7999 | Step: 0.05000 | Action: PATTERN MOVE (Accepted). New Score: -64.4010
+Iter 9: Best: -64.4010 | Step: 0.05000 | Action: PATTERN MOVE (Accepted). New Score: -64.2552
+Iter 10: Best: -64.2552 | Step: 0.05000 | Action: EXPLORATION (Accepted). New Score: -64.2083
+
+CONVERGENCE ACHIEVED: Improvement (0.046871) < ftol (0.1)
+------------------------------
+Optimization Finished. Best Score found: -64.2083
+3 fold 74.07%
+--- Starting Hooke-Jeeves Optimization (Dim: 110) ---
+Initial Score: -169.8805 (CLL)
+------------------------------
+Iter 1: Best: -169.8805 | Step: 0.05000 | Action: PATTERN MOVE (Accepted). New Score: -87.4589
+Iter 2: Best: -87.4589 | Step: 0.05000 | Action: PATTERN MOVE (Accepted). New Score: -74.4126
+Iter 3: Best: -74.4126 | Step: 0.05000 | Action: EXPLORATION (Accepted). New Score: -69.1359
+Iter 4: Best: -69.1359 | Step: 0.05000 | Action: PATTERN MOVE (Accepted). New Score: -65.9695
+Iter 5: Best: -65.9695 | Step: 0.05000 | Action: PATTERN MOVE (Accepted). New Score: -64.7937
+Iter 6: Best: -64.7937 | Step: 0.05000 | Action: PATTERN MOVE (Accepted). New Score: -63.4038
+Iter 7: Best: -63.4038 | Step: 0.05000 | Action: EXPLORATION (Accepted). New Score: -63.0187
+Iter 8: Best: -63.0187 | Step: 0.05000 | Action: PATTERN MOVE (Accepted). New Score: -62.6611
+Iter 9: Best: -62.6611 | Step: 0.05000 | Action: EXPLORATION (Accepted). New Score: -62.6442
+
+CONVERGENCE ACHIEVED: Improvement (0.016885) < ftol (0.1)
+------------------------------
+Optimization Finished. Best Score found: -62.6442
+4 fold 70.37%
+--- Starting Hooke-Jeeves Optimization (Dim: 110) ---
+Initial Score: -163.8343 (CLL)
+------------------------------
+Iter 1: Best: -163.8343 | Step: 0.05000 | Action: PATTERN MOVE (Accepted). New Score: -91.6561
+Iter 2: Best: -91.6561 | Step: 0.05000 | Action: PATTERN MOVE (Accepted). New Score: -79.2556
+Iter 3: Best: -79.2556 | Step: 0.05000 | Action: EXPLORATION (Accepted). New Score: -75.8340
+Iter 4: Best: -75.8340 | Step: 0.05000 | Action: PATTERN MOVE (Accepted). New Score: -72.4217
+Iter 5: Best: -72.4217 | Step: 0.05000 | Action: PATTERN MOVE (Accepted). New Score: -71.3452
+Iter 6: Best: -71.3452 | Step: 0.05000 | Action: EXPLORATION (Accepted). New Score: -70.9187
+Iter 7: Best: -70.9187 | Step: 0.05000 | Action: PATTERN MOVE (Accepted). New Score: -70.6461
+Iter 8: Best: -70.6461 | Step: 0.05000 | Action: PATTERN MOVE (Accepted). New Score: -70.5321
+Iter 9: Best: -70.5321 | Step: 0.05000 | Action: PATTERN MOVE (Accepted). New Score: -70.3316
+Iter 10: Best: -70.3316 | Step: 0.05000 | Action: EXPLORATION (Accepted). New Score: -70.3188
+
+CONVERGENCE ACHIEVED: Improvement (0.012757) < ftol (0.1)
+------------------------------
+Optimization Finished. Best Score found: -70.3188
+5 fold 92.59%
+--- Starting Hooke-Jeeves Optimization (Dim: 110) ---
+Initial Score: -167.6026 (CLL)
+------------------------------
+Iter 1: Best: -167.6026 | Step: 0.05000 | Action: PATTERN MOVE (Accepted). New Score: -92.9053
+Iter 2: Best: -92.9053 | Step: 0.05000 | Action: PATTERN MOVE (Accepted). New Score: -80.0662
+Iter 3: Best: -80.0662 | Step: 0.05000 | Action: EXPLORATION (Accepted). New Score: -75.7470
+Iter 4: Best: -75.7470 | Step: 0.05000 | Action: PATTERN MOVE (Accepted). New Score: -72.7794
+Iter 5: Best: -72.7794 | Step: 0.05000 | Action: PATTERN MOVE (Accepted). New Score: -71.2751
+Iter 6: Best: -71.2751 | Step: 0.05000 | Action: EXPLORATION (Accepted). New Score: -70.7684
+Iter 7: Best: -70.7684 | Step: 0.05000 | Action: PATTERN MOVE (Accepted). New Score: -70.4373
+Iter 8: Best: -70.4373 | Step: 0.05000 | Action: PATTERN MOVE (Accepted). New Score: -70.1705
+Iter 9: Best: -70.1705 | Step: 0.05000 | Action: PATTERN MOVE (Accepted). New Score: -69.9889
+Iter 10: Best: -69.9889 | Step: 0.05000 | Action: PATTERN MOVE (Accepted). New Score: -69.8887
+Iter 11: Best: -69.8887 | Step: 0.05000 | Action: EXPLORATION (Accepted). New Score: -69.8746
+
+CONVERGENCE ACHIEVED: Improvement (0.014122) < ftol (0.1)
+------------------------------
+Optimization Finished. Best Score found: -69.8746
+6 fold 77.78%
+--- Starting Hooke-Jeeves Optimization (Dim: 110) ---
+Initial Score: -180.4892 (CLL)
+------------------------------
+Iter 1: Best: -180.4892 | Step: 0.05000 | Action: PATTERN MOVE (Accepted). New Score: -94.6854
+Iter 2: Best: -94.6854 | Step: 0.05000 | Action: PATTERN MOVE (Accepted). New Score: -80.5400
+Iter 3: Best: -80.5400 | Step: 0.05000 | Action: EXPLORATION (Accepted). New Score: -76.4591
+Iter 4: Best: -76.4591 | Step: 0.05000 | Action: PATTERN MOVE (Accepted). New Score: -73.1857
+Iter 5: Best: -73.1857 | Step: 0.05000 | Action: PATTERN MOVE (Accepted). New Score: -71.7184
+Iter 6: Best: -71.7184 | Step: 0.05000 | Action: EXPLORATION (Accepted). New Score: -71.3766
+Iter 7: Best: -71.3766 | Step: 0.05000 | Action: PATTERN MOVE (Accepted). New Score: -71.1127
+Iter 8: Best: -71.1127 | Step: 0.05000 | Action: PATTERN MOVE (Accepted). New Score: -70.8697
+Iter 9: Best: -70.8697 | Step: 0.05000 | Action: PATTERN MOVE (Accepted). New Score: -70.6884
+Iter 10: Best: -70.6884 | Step: 0.05000 | Action: PATTERN MOVE (Accepted). New Score: -70.6404
+
+CONVERGENCE ACHIEVED: Improvement (0.047978) < ftol (0.1)
+------------------------------
+Optimization Finished. Best Score found: -70.6404
+7 fold 85.19%
+--- Starting Hooke-Jeeves Optimization (Dim: 110) ---
+Initial Score: -152.3069 (CLL)
+------------------------------
+Iter 1: Best: -152.3069 | Step: 0.05000 | Action: PATTERN MOVE (Accepted). New Score: -89.0586
+Iter 2: Best: -89.0586 | Step: 0.05000 | Action: PATTERN MOVE (Accepted). New Score: -76.6543
+Iter 3: Best: -76.6543 | Step: 0.05000 | Action: EXPLORATION (Accepted). New Score: -72.9736
+Iter 4: Best: -72.9736 | Step: 0.05000 | Action: PATTERN MOVE (Accepted). New Score: -69.7256
+Iter 5: Best: -69.7256 | Step: 0.05000 | Action: PATTERN MOVE (Accepted). New Score: -68.3606
+Iter 6: Best: -68.3606 | Step: 0.05000 | Action: EXPLORATION (Accepted). New Score: -67.7730
+Iter 7: Best: -67.7730 | Step: 0.05000 | Action: PATTERN MOVE (Accepted). New Score: -67.4685
+Iter 8: Best: -67.4685 | Step: 0.05000 | Action: PATTERN MOVE (Accepted). New Score: -67.2384
+Iter 9: Best: -67.2384 | Step: 0.05000 | Action: PATTERN MOVE (Accepted). New Score: -67.0755
+Iter 10: Best: -67.0755 | Step: 0.05000 | Action: PATTERN MOVE (Accepted). New Score: -67.0250
+
+CONVERGENCE ACHIEVED: Improvement (0.050492) < ftol (0.1)
+------------------------------
+Optimization Finished. Best Score found: -67.0250
+8 fold 85.19%
+--- Starting Hooke-Jeeves Optimization (Dim: 110) ---
+Initial Score: -162.1949 (CLL)
+------------------------------
+Iter 1: Best: -162.1949 | Step: 0.05000 | Action: PATTERN MOVE (Accepted). New Score: -93.8521
+Iter 2: Best: -93.8521 | Step: 0.05000 | Action: PATTERN MOVE (Accepted). New Score: -78.6919
+Iter 3: Best: -78.6919 | Step: 0.05000 | Action: EXPLORATION (Accepted). New Score: -74.5308
+Iter 4: Best: -74.5308 | Step: 0.05000 | Action: PATTERN MOVE (Accepted). New Score: -71.0645
+Iter 5: Best: -71.0645 | Step: 0.05000 | Action: PATTERN MOVE (Accepted). New Score: -69.5571
+Iter 6: Best: -69.5571 | Step: 0.05000 | Action: EXPLORATION (Accepted). New Score: -68.9778
+Iter 7: Best: -68.9778 | Step: 0.05000 | Action: PATTERN MOVE (Accepted). New Score: -68.7573
+Iter 8: Best: -68.7573 | Step: 0.05000 | Action: PATTERN MOVE (Accepted). New Score: -68.5514
+Iter 9: Best: -68.5514 | Step: 0.05000 | Action: PATTERN MOVE (Accepted). New Score: -68.4153
+Iter 10: Best: -68.4153 | Step: 0.05000 | Action: PATTERN MOVE (Accepted). New Score: -68.3729
+
+CONVERGENCE ACHIEVED: Improvement (0.042432) < ftol (0.1)
+------------------------------
+Optimization Finished. Best Score found: -68.3729
+9 fold 88.89%
+--- Starting Hooke-Jeeves Optimization (Dim: 110) ---
+Initial Score: -175.4331 (CLL)
+------------------------------
+Iter 1: Best: -175.4331 | Step: 0.05000 | Action: PATTERN MOVE (Accepted). New Score: -94.6624
+Iter 2: Best: -94.6624 | Step: 0.05000 | Action: PATTERN MOVE (Accepted). New Score: -78.3057
+Iter 3: Best: -78.3057 | Step: 0.05000 | Action: EXPLORATION (Accepted). New Score: -73.7697
+Iter 4: Best: -73.7697 | Step: 0.05000 | Action: PATTERN MOVE (Accepted). New Score: -70.2185
+Iter 5: Best: -70.2185 | Step: 0.05000 | Action: PATTERN MOVE (Accepted). New Score: -67.9088
+Iter 6: Best: -67.9088 | Step: 0.05000 | Action: PATTERN MOVE (Accepted). New Score: -66.9124
+Iter 7: Best: -66.9124 | Step: 0.05000 | Action: EXPLORATION (Accepted). New Score: -66.6181
+Iter 8: Best: -66.6181 | Step: 0.05000 | Action: PATTERN MOVE (Accepted). New Score: -66.2619
+Iter 9: Best: -66.2619 | Step: 0.05000 | Action: PATTERN MOVE (Accepted). New Score: -66.1437
+Iter 10: Best: -66.1437 | Step: 0.05000 | Action: EXPLORATION (Accepted). New Score: -66.0759
+
+CONVERGENCE ACHIEVED: Improvement (0.067779) < ftol (0.1)
+------------------------------
+Optimization Finished. Best Score found: -66.0759
+10 fold 74.07%
+
+average 81.48%
+Successfully finished Heart - Hooke-Jeeves.
+Saved to: results_HeartTAN_hooke.txt
+Elapsed time: 10.93 minutes
+
+--- Starting Experiment: Heart - L-BFGS (Gradient) ---
+Starting 10-Fold Validation (Gradient-Based) on datasets/heartDisc.csv...
+Optimizer: LBFGSOptimizerWrapper | Max Iter: 100
+--- Starting L-BFGS Optimization (Dim: 110) ---
+Initial Best Score: -195.9484 (CLL)
+------------------------------
+------------------------------
+Optimization Success!
+Total Iterations: 4
+Final Best Score: -75.1771 (CLL)
+1 fold 77.78%
+--- Starting L-BFGS Optimization (Dim: 110) ---
+Initial Best Score: -154.0328 (CLL)
+------------------------------
+------------------------------
+Optimization Success!
+Total Iterations: 2
+Final Best Score: -89.9679 (CLL)
+2 fold 88.89%
+--- Starting L-BFGS Optimization (Dim: 110) ---
+Initial Best Score: -178.6997 (CLL)
+------------------------------
+------------------------------
+Optimization Success!
+Total Iterations: 4
+Final Best Score: -71.3725 (CLL)
+3 fold 74.07%
+--- Starting L-BFGS Optimization (Dim: 110) ---
+Initial Best Score: -169.8805 (CLL)
+------------------------------
+------------------------------
+Optimization Success!
+Total Iterations: 4
+Final Best Score: -68.6062 (CLL)
+4 fold 70.37%
+--- Starting L-BFGS Optimization (Dim: 110) ---
+Initial Best Score: -163.8343 (CLL)
+------------------------------
+------------------------------
+Optimization Success!
+Total Iterations: 3
+Final Best Score: -80.0904 (CLL)
+5 fold 88.89%
+--- Starting L-BFGS Optimization (Dim: 110) ---
+Initial Best Score: -167.6026 (CLL)
+------------------------------
+------------------------------
+Optimization Success!
+Total Iterations: 4
+Final Best Score: -76.0148 (CLL)
+6 fold 85.19%
+--- Starting L-BFGS Optimization (Dim: 110) ---
+Initial Best Score: -180.4892 (CLL)
+------------------------------
+------------------------------
+Optimization Success!
+Total Iterations: 3
+Final Best Score: -81.5449 (CLL)
+7 fold 81.48%
+--- Starting L-BFGS Optimization (Dim: 110) ---
+Initial Best Score: -152.3069 (CLL)
+------------------------------
+------------------------------
+Optimization Success!
+Total Iterations: 3
+Final Best Score: -78.6608 (CLL)
+8 fold 88.89%
+--- Starting L-BFGS Optimization (Dim: 110) ---
+Initial Best Score: -162.1949 (CLL)
+------------------------------
+------------------------------
+Optimization Success!
+Total Iterations: 4
+Final Best Score: -74.5205 (CLL)
+9 fold 85.19%
+--- Starting L-BFGS Optimization (Dim: 110) ---
+Initial Best Score: -175.4331 (CLL)
+------------------------------
+
+ERROR:root:Failed Pima - Nelder-Mead: 'class'
+ERROR:root:Failed Pima - Hooke-Jeeves: 'class'
+ERROR:root:Failed Pima - L-BFGS (Gradient): 'class'
+ERROR:root:Failed TicTacToe - Nelder-Mead: 'class'
+ERROR:root:Failed TicTacToe - Hooke-Jeeves: 'class'
+ERROR:root:Failed TicTacToe - L-BFGS (Gradient): 'class'
+
+------------------------------
+Optimization Success!
+Total Iterations: 4
+Final Best Score: -73.3847 (CLL)
+10 fold 81.48%
+
+average 82.22%
+Successfully finished Heart - L-BFGS (Gradient).
+Saved to: results_HeartTAN_LBFGS.txt
+Elapsed time: 0.04 minutes
+
+--- Starting Experiment: Pima - Nelder-Mead ---
+Starting 10-Fold Validation on datasets/pimaDisc.csv...
+Optimizer: NelderMeadOptimizer | Max Iter: 6000
+--- Starting Simplex Optimization (Dim: 106) ---
+CRITICAL ERROR in Pima - Nelder-Mead: 'class'
+--- Starting Experiment: Pima - Hooke-Jeeves ---
+Starting 10-Fold Validation on datasets/pimaDisc.csv...
+Optimizer: HookeJeevesOptimizer | Max Iter: 17
+--- Starting Hooke-Jeeves Optimization (Dim: 106) ---
+CRITICAL ERROR in Pima - Hooke-Jeeves: 'class'
+--- Starting Experiment: Pima - L-BFGS (Gradient) ---
+Starting 10-Fold Validation (Gradient-Based) on datasets/pimaDisc.csv...
+Optimizer: LBFGSOptimizerWrapper | Max Iter: 100
+--- Starting L-BFGS Optimization (Dim: 106) ---
+CRITICAL ERROR in Pima - L-BFGS (Gradient): 'class'
+--- Starting Experiment: TicTacToe - Nelder-Mead ---
+Starting 10-Fold Validation on datasets/tic-tac-toe.csv...
+Optimizer: NelderMeadOptimizer | Max Iter: 6000
+--- Starting Simplex Optimization (Dim: 152) ---
+CRITICAL ERROR in TicTacToe - Nelder-Mead: 'class'
+--- Starting Experiment: TicTacToe - Hooke-Jeeves ---
+Starting 10-Fold Validation on datasets/tic-tac-toe.csv...
+Optimizer: HookeJeevesOptimizer | Max Iter: 17
+--- Starting Hooke-Jeeves Optimization (Dim: 152) ---
+CRITICAL ERROR in TicTacToe - Hooke-Jeeves: 'class'
+--- Starting Experiment: TicTacToe - L-BFGS (Gradient) ---
+Starting 10-Fold Validation (Gradient-Based) on datasets/tic-tac-toe.csv...
+Optimizer: LBFGSOptimizerWrapper | Max Iter: 100
+--- Starting L-BFGS Optimization (Dim: 152) ---
+CRITICAL ERROR in TicTacToe - L-BFGS (Gradient): 'class'
+
+All scheduled experiments have been processed.

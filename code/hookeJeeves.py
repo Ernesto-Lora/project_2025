@@ -1,19 +1,20 @@
 import numpy as np
 import pandas as pd
 
-# ==========================================
-# 2. The Hooke-Jeeves Pattern Search Optimizer
-# ==========================================
+
+import numpy as np
+
 class HookeJeevesOptimizer:
-    def __init__(self, func, dim, max_iter=20, step_size=0.05, step_decay=0.5, min_step=1e-6):
+    def __init__(self, func, dim, max_iter=20, step_size=0.05, step_decay=0.5, min_step=1e-6, ftol=1e-1):
         self.func = func       # The objective function (to MINIMIZE)
         self.dim = dim
         self.max_iter = max_iter
         
         # Hooke-Jeeves specific parameters
         self.step_size = step_size  # Initial step length
-        self.step_decay = step_decay # Factor to reduce step size (alpha in some texts)
-        self.min_step = min_step     # Convergence criteria for step size
+        self.step_decay = step_decay # Factor to reduce step size
+        self.min_step = min_step     # Tolerance for step size (Grid precision)
+        self.ftol = ftol             # Tolerance for function value improvement
 
     def _exploratory_move(self, base_point, current_step_size, current_score):
         """
@@ -64,51 +65,49 @@ class HookeJeevesOptimizer:
         print("-" * 30)
 
         for it in range(self.max_iter):
-            # Check for convergence based on step size
+            # Track score at the start of the iteration to check improvement later
+            score_start_of_iter = best_score
+            
+            # --- CONVERGENCE CONDITION 1: Step Size ---
+            # If the grid is too fine, we assume we are at the minimum.
             if current_step < self.min_step:
-                print("Step size too small. Converged.")
+                print(f"CONVERGENCE ACHIEVED: Step size ({current_step:.7f}) < Min Step ({self.min_step})")
                 break
 
-            print(f"Iter {it+1}: Best: {-best_score:.4f} | Step: {current_step:.5f}", end=" | ")
 
             # --- 1. Exploratory Move from Base Point ---
             new_point, new_score, improved = self._exploratory_move(base_point, current_step, best_score)
 
             if improved:
                 # --- 2. Pattern Move (Acceleration) ---
-                # We improved, so let's try to jump further in this direction
                 # Formula: P = New + (New - Old)
                 pattern_point = new_point + (new_point - prev_base_point)
                 
-                # We must evaluate the pattern point itself or do an exploration around it.
-                # Standard HJ does an exploration *around* the pattern point.
                 pat_expl_point, pat_expl_score, pat_success = self._exploratory_move(
-                    pattern_point, current_step, self.func(pattern_point) # We treat pattern point as temporary base
+                    pattern_point, current_step, self.func(pattern_point)
                 )
 
                 if pat_expl_score < new_score:
-                    # Pattern Move Succeeded significantly!
-                    print(f"Action: PATTERN MOVE (Accepted). New Score: {-pat_expl_score:.4f}")
-                    prev_base_point = np.copy(base_point) # Update history
-                    base_point = pat_expl_point           # Update current best
+                    prev_base_point = np.copy(base_point) 
+                    base_point = pat_expl_point           
                     best_score = pat_expl_score
                 else:
-                    # Pattern move failed, but the initial exploration was good.
-                    # Just take the result of the first exploration.
-                    print(f"Action: EXPLORATION (Accepted). New Score: {-new_score:.4f}")
                     prev_base_point = np.copy(base_point)
                     base_point = new_point
                     best_score = new_score
 
+                # --- CONVERGENCE CONDITION 2: Function Value Tolerance ---
+                # If we improved, but the improvement is tiny, we might be done.
+                score_improvement = abs(score_start_of_iter - best_score)
+                if score_improvement < self.ftol:
+                    print(f"\nCONVERGENCE ACHIEVED: Improvement ({score_improvement:.6f}) < ftol ({self.ftol})")
+                    break
+
             else:
                 # --- 3. Step Reduction ---
-                # Exploration failed to find a better point around current base.
-                # We are likely in a local valley, so we refine the search grid.
                 current_step *= self.step_decay
-                print(f"Action: STEP REDUCTION. New Step: {current_step:.5f}")
-                
-                # Note: In standard HJ, we do NOT update the base_point here. 
-                # We stay put and try again with smaller steps.
+                # We do NOT check ftol here because score didn't change (diff is 0),
+                # but we are not converged yet; we just need a finer grid.
 
         print("-" * 30)
         print(f"Optimization Finished. Best Score found: {-best_score:.4f}")

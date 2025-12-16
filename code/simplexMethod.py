@@ -1,14 +1,15 @@
 import numpy as np
 import pandas as pd
 
-# ==========================================
-# 2. The Simplex (Nelder-Mead) Optimizer 
-# ==========================================
+
+import numpy as np
+
 class NelderMeadOptimizer:
-    def __init__(self, func, dim, max_iter=5, alpha=1.0, gamma=2.0, rho=0.5, sigma=0.5):
+    def __init__(self, func, dim, max_iter=5, ftol=1e-1, alpha=1.0, gamma=2.0, rho=0.5, sigma=0.993):
         self.func = func # The objective function (to MINIMIZE)
         self.dim = dim
         self.max_iter = max_iter
+        self.ftol = ftol   # Function value tolerance for convergence check
         # Standard coefficients
         self.alpha = alpha # Reflection
         self.gamma = gamma # Expansion
@@ -42,8 +43,21 @@ class NelderMeadOptimizer:
             worst_score, worst_point = scores[-1]
             second_worst_score = scores[-2][0]
             
-            # Print status at start of iteration
-            print(f"Iter {it+1}: Best: {-best_score:.4f} | Worst: {-worst_score:.4f}", end=" | ")
+            # --- CONVERGENCE CONDITION CHECK ---
+            # Calculate the standard deviation of the function values
+            function_values = np.array([s[0] for s in scores])
+            std_dev_scores = np.std(function_values)
+            
+            # The simplex has converged if the standard deviation of the function values
+            # is less than the function tolerance (ftol).
+            if std_dev_scores < self.ftol:
+                print(f"CONVERGENCE ACHIEVED at Iter {it+1}.")
+                print(f"Standard Deviation of Scores ({std_dev_scores:.6f}) < Tolerance ({self.ftol}).")
+                break # Exit the loop
+            # -----------------------------------
+            
+           
+            
 
             # Calculate Centroid of all except worst
             points_matrix = np.array([x[1] for x in scores[:-1]])
@@ -55,7 +69,6 @@ class NelderMeadOptimizer:
             
             if best_score <= r_score < second_worst_score:
                 scores[-1] = (r_score, xr)
-                print(f"Action: REFLECTION (Accepted). New Score: {-r_score:.4f}")
                 continue
 
             # --- Attempt Expansion ---
@@ -65,10 +78,8 @@ class NelderMeadOptimizer:
                 
                 if e_score < r_score:
                     scores[-1] = (e_score, xe)
-                    print(f"Action: EXPANSION (Accepted). New Score: {-e_score:.4f}")
                 else:
                     scores[-1] = (r_score, xr)
-                    print(f"Action: EXPANSION (Reverted to Reflection). New Score: {-r_score:.4f}")
                 continue
                 
             # --- Attempt Contraction ---
@@ -78,12 +89,11 @@ class NelderMeadOptimizer:
             
             if c_score < worst_score:
                 scores[-1] = (c_score, xc)
-                print(f"Action: CONTRACTION (Accepted). New Score: {-c_score:.4f}")
                 continue
             
             # --- Shrink ---
             # If all else fails, shrink the whole simplex towards the best point
-            print(f"Action: SHRINK (Simplex Reduction)")
+            
             new_scores = [(scores[0][0], scores[0][1])]
             for i in range(1, len(scores)):
                 p = scores[0][1] + self.sigma * (scores[i][1] - scores[0][1])
@@ -91,5 +101,7 @@ class NelderMeadOptimizer:
             scores = new_scores
             
         print("-" * 30)
+        # Ensure scores are sorted before returning the final result
+        scores.sort(key=lambda x: x[0]) 
         print(f"Optimization Finished. Best Score found: {-scores[0][0]:.4f}")
         return scores[0][1] # Return best point
