@@ -1,0 +1,449 @@
+Scheduled 5 experiments.
+
+--- Starting Experiment: Australian - L-BFGS (Gradient) ---
+Starting 10-Fold Validation (Gradient-Based) on datasets/AustralianDisc.csv...
+Optimizer: LBFGSOptimizerWrapper | Max Iter: 100
+--- Starting L-BFGS Optimization (Dim: 118) ---
+Initial Best Score: -418.9833 (CLL)
+------------------------------
+------------------------------
+Optimization Success!
+Total Iterations: 9
+Final Best Score: -175.2017 (CLL)
+1 fold 86.96%
+--- Starting L-BFGS Optimization (Dim: 118) ---
+Initial Best Score: -394.6773 (CLL)
+------------------------------
+------------------------------
+Optimization Success!
+Total Iterations: 9
+Final Best Score: -182.4409 (CLL)
+2 fold 89.86%
+--- Starting L-BFGS Optimization (Dim: 118) ---
+Initial Best Score: -481.4228 (CLL)
+------------------------------
+------------------------------
+Optimization Success!
+Total Iterations: 9
+Final Best Score: -183.7567 (CLL)
+3 fold 88.41%
+--- Starting L-BFGS Optimization (Dim: 118) ---
+Initial Best Score: -466.3629 (CLL)
+------------------------------
+------------------------------
+Optimization Success!
+Total Iterations: 9
+Final Best Score: -180.3821 (CLL)
+4 fold 81.16%
+--- Starting L-BFGS Optimization (Dim: 118) ---
+Initial Best Score: -485.7705 (CLL)
+------------------------------
+------------------------------
+Optimization Success!
+Total Iterations: 8
+Final Best Score: -190.0233 (CLL)
+5 fold 89.86%
+--- Starting L-BFGS Optimization (Dim: 118) ---
+Initial Best Score: -400.0968 (CLL)
+------------------------------
+------------------------------
+Optimization Success!
+Total Iterations: 8
+Final Best Score: -187.0803 (CLL)
+6 fold 88.41%
+--- Starting L-BFGS Optimization (Dim: 118) ---
+Initial Best Score: -438.4068 (CLL)
+------------------------------
+------------------------------
+Optimization Success!
+Total Iterations: 9
+Final Best Score: -183.3978 (CLL)
+7 fold 89.86%
+--- Starting L-BFGS Optimization (Dim: 118) ---
+Initial Best Score: -487.3015 (CLL)
+------------------------------
+------------------------------
+Optimization Success!
+Total Iterations: 8
+Final Best Score: -175.5724 (CLL)
+8 fold 79.71%
+--- Starting L-BFGS Optimization (Dim: 118) ---
+Initial Best Score: -452.5224 (CLL)
+------------------------------
+------------------------------
+Optimization Success!
+Total Iterations: 7
+Final Best Score: -181.1657 (CLL)
+9 fold 88.41%
+--- Starting L-BFGS Optimization (Dim: 118) ---
+Initial Best Score: -482.7502 (CLL)
+------------------------------
+------------------------------
+Optimization Success!
+Total Iterations: 9
+Final Best Score: -188.5304 (CLL)
+10 fold 89.86%
+
+average 87.25%
+Successfully finished Australian - L-BFGS (Gradient).
+Saved to: results_AustralianNAIVE_LBFGS.txt
+Elapsed time: 0.25 minutes
+
+--- Starting Experiment: Heart - L-BFGS (Gradient) ---
+Starting 10-Fold Validation (Gradient-Based) on datasets/heartDisc.csv...
+Optimizer: LBFGSOptimizerWrapper | Max Iter: 100
+--- Starting L-BFGS Optimization (Dim: 110) ---
+Initial Best Score: -195.9484 (CLL)
+------------------------------
+------------------------------
+Optimization Success!
+Total Iterations: 7
+Final Best Score: -70.7908 (CLL)
+1 fold 81.48%
+--- Starting L-BFGS Optimization (Dim: 110) ---
+Initial Best Score: -154.0328 (CLL)
+------------------------------
+------------------------------
+Optimization Success!
+Total Iterations: 10
+Final Best Score: -72.6125 (CLL)
+2 fold 88.89%
+--- Starting L-BFGS Optimization (Dim: 110) ---
+Initial Best Score: -178.6997 (CLL)
+------------------------------
+------------------------------
+Optimization Success!
+Total Iterations: 7
+Final Best Score: -66.6399 (CLL)
+3 fold 74.07%
+--- Starting L-BFGS Optimization (Dim: 110) ---
+Initial Best Score: -169.8805 (CLL)
+------------------------------
+------------------------------
+Optimization Success!
+Total Iterations: 7
+Final Best Score: -64.2430 (CLL)
+4 fold 70.37%
+--- Starting L-BFGS Optimization (Dim: 110) ---
+Initial Best Score: -163.8343 (CLL)
+------------------------------
+------------------------------
+Optimization Success!
+Total Iterations: 5
+Final Best Score: -75.3666 (CLL)
+5 fold 88.89%
+--- Starting L-BFGS Optimization (Dim: 110) ---
+Initial Best Score: -167.6026 (CLL)
+------------------------------
+------------------------------
+Optimization Success!
+Total Iterations: 8
+Final Best Score: -71.8052 (CLL)
+6 fold 81.48%
+--- Starting L-BFGS Optimization (Dim: 110) ---
+Initial Best Score: -180.4892 (CLL)
+------------------------------
+------------------------------
+Optimization Success!
+Total Iterations: 7
+Final Best Score: -72.3639 (CLL)
+7 fold 85.19%
+--- Starting L-BFGS Optimization (Dim: 110) ---
+Initial Best Score: -152.3069 (CLL)
+------------------------------
+------------------------------
+Optimization Success!
+Total Iterations: 8
+Final Best Score: -68.6466 (CLL)
+8 fold 85.19%
+--- Starting L-BFGS Optimization (Dim: 110) ---
+Initial Best Score: -162.1949 (CLL)
+------------------------------
+------------------------------
+Optimization Success!
+Total Iterations: 7
+Final Best Score: -70.6690 (CLL)
+9 fold 88.89%
+--- Starting L-BFGS Optimization (Dim: 110) ---
+Initial Best Score: -175.4331 (CLL)
+------------------------------
+------------------------------
+Optimization Success!
+Total Iterations: 7
+Final Best Score: -68.0756 (CLL)
+10 fold 74.07%
+
+average 81.85%
+Successfully finished Heart - L-BFGS (Gradient).
+Saved to: results_HeartNAIVE_LBFGS.txt
+Elapsed time: 0.08 minutes
+
+--- Starting Experiment: Diabetes - L-BFGS (Gradient) ---
+Starting 10-Fold Validation (Gradient-Based) on datasets/diabetesDisc.csv...
+Optimizer: LBFGSOptimizerWrapper | Max Iter: 100
+--- Starting L-BFGS Optimization (Dim: 106) ---
+Initial Best Score: -517.5163 (CLL)
+------------------------------
+------------------------------
+Optimization Success!
+Total Iterations: 6
+Final Best Score: -312.2536 (CLL)
+1 fold 76.62%
+--- Starting L-BFGS Optimization (Dim: 106) ---
+Initial Best Score: -513.4138 (CLL)
+------------------------------
+------------------------------
+Optimization Success!
+Total Iterations: 6
+Final Best Score: -315.8838 (CLL)
+2 fold 81.82%
+--- Starting L-BFGS Optimization (Dim: 106) ---
+Initial Best Score: -439.3913 (CLL)
+------------------------------
+------------------------------
+Optimization Success!
+Total Iterations: 6
+Final Best Score: -308.1066 (CLL)
+3 fold 74.03%
+--- Starting L-BFGS Optimization (Dim: 106) ---
+Initial Best Score: -533.4346 (CLL)
+------------------------------
+------------------------------
+Optimization Success!
+Total Iterations: 6
+Final Best Score: -324.9865 (CLL)
+4 fold 85.71%
+--- Starting L-BFGS Optimization (Dim: 106) ---
+Initial Best Score: -515.0949 (CLL)
+------------------------------
+------------------------------
+Optimization Success!
+Total Iterations: 6
+Final Best Score: -314.7084 (CLL)
+5 fold 79.22%
+--- Starting L-BFGS Optimization (Dim: 106) ---
+Initial Best Score: -499.8215 (CLL)
+------------------------------
+------------------------------
+Optimization Success!
+Total Iterations: 6
+Final Best Score: -305.1001 (CLL)
+6 fold 64.94%
+--- Starting L-BFGS Optimization (Dim: 106) ---
+Initial Best Score: -464.6632 (CLL)
+------------------------------
+------------------------------
+Optimization Success!
+Total Iterations: 6
+Final Best Score: -320.7711 (CLL)
+7 fold 77.92%
+--- Starting L-BFGS Optimization (Dim: 106) ---
+Initial Best Score: -490.2562 (CLL)
+------------------------------
+------------------------------
+Optimization Success!
+Total Iterations: 6
+Final Best Score: -316.8246 (CLL)
+8 fold 77.92%
+--- Starting L-BFGS Optimization (Dim: 106) ---
+Initial Best Score: -489.6792 (CLL)
+------------------------------
+------------------------------
+Optimization Success!
+Total Iterations: 6
+Final Best Score: -315.2883 (CLL)
+9 fold 76.32%
+--- Starting L-BFGS Optimization (Dim: 106) ---
+Initial Best Score: -498.6234 (CLL)
+------------------------------
+------------------------------
+Optimization Success!
+Total Iterations: 6
+Final Best Score: -320.3624 (CLL)
+10 fold 76.32%
+
+average 77.08%
+Successfully finished Diabetes - L-BFGS (Gradient).
+Saved to: results_DiabetesNAIVE_LBFGS.txt
+Elapsed time: 0.12 minutes
+
+--- Starting Experiment: Pima - L-BFGS (Gradient) ---
+Starting 10-Fold Validation (Gradient-Based) on datasets/pimaDisc.csv...
+Optimizer: LBFGSOptimizerWrapper | Max Iter: 100
+--- Starting L-BFGS Optimization (Dim: 106) ---
+Initial Best Score: -485.2018 (CLL)
+------------------------------
+------------------------------
+Optimization Success!
+Total Iterations: 6
+Final Best Score: -320.9280 (CLL)
+1 fold 81.82%
+--- Starting L-BFGS Optimization (Dim: 106) ---
+Initial Best Score: -541.4044 (CLL)
+------------------------------
+------------------------------
+Optimization Success!
+Total Iterations: 6
+Final Best Score: -316.7009 (CLL)
+2 fold 80.52%
+--- Starting L-BFGS Optimization (Dim: 106) ---
+Initial Best Score: -450.3718 (CLL)
+------------------------------
+------------------------------
+Optimization Success!
+Total Iterations: 6
+Final Best Score: -317.4302 (CLL)
+3 fold 76.62%
+--- Starting L-BFGS Optimization (Dim: 106) ---
+Initial Best Score: -522.1390 (CLL)
+------------------------------
+------------------------------
+Optimization Success!
+Total Iterations: 6
+Final Best Score: -310.0991 (CLL)
+4 fold 72.73%
+--- Starting L-BFGS Optimization (Dim: 106) ---
+Initial Best Score: -505.3684 (CLL)
+------------------------------
+------------------------------
+Optimization Success!
+Total Iterations: 6
+Final Best Score: -315.0729 (CLL)
+5 fold 74.03%
+--- Starting L-BFGS Optimization (Dim: 106) ---
+Initial Best Score: -504.9105 (CLL)
+------------------------------
+------------------------------
+Optimization Success!
+Total Iterations: 6
+Final Best Score: -310.1518 (CLL)
+6 fold 72.73%
+--- Starting L-BFGS Optimization (Dim: 106) ---
+Initial Best Score: -469.8061 (CLL)
+------------------------------
+------------------------------
+Optimization Success!
+Total Iterations: 6
+Final Best Score: -318.0735 (CLL)
+7 fold 83.12%
+--- Starting L-BFGS Optimization (Dim: 106) ---
+Initial Best Score: -488.7243 (CLL)
+------------------------------
+------------------------------
+Optimization Success!
+Total Iterations: 6
+Final Best Score: -317.3768 (CLL)
+8 fold 81.82%
+--- Starting L-BFGS Optimization (Dim: 106) ---
+Initial Best Score: -509.9573 (CLL)
+------------------------------
+------------------------------
+Optimization Success!
+Total Iterations: 6
+Final Best Score: -314.6512 (CLL)
+9 fold 76.32%
+--- Starting L-BFGS Optimization (Dim: 106) ---
+Initial Best Score: -519.2566 (CLL)
+------------------------------
+------------------------------
+Optimization Success!
+Total Iterations: 6
+Final Best Score: -315.6036 (CLL)
+10 fold 78.95%
+
+average 77.86%
+Successfully finished Pima - L-BFGS (Gradient).
+Saved to: results_PimaNAIVE_LBFGS.txt
+Elapsed time: 0.12 minutes
+
+--- Starting Experiment: TicTacToe - L-BFGS (Gradient) ---
+Starting 10-Fold Validation (Gradient-Based) on datasets/tic-tac-toe.csv...
+Optimizer: LBFGSOptimizerWrapper | Max Iter: 100
+--- Starting L-BFGS Optimization (Dim: 152) ---
+Initial Best Score: -580.2002 (CLL)
+------------------------------
+------------------------------
+Optimization Success!
+Total Iterations: 16
+Final Best Score: -17.1019 (CLL)
+1 fold 97.92%
+--- Starting L-BFGS Optimization (Dim: 152) ---
+Initial Best Score: -667.7957 (CLL)
+------------------------------
+------------------------------
+Optimization Success!
+Total Iterations: 30
+Final Best Score: -5.3393 (CLL)
+2 fold 97.92%
+--- Starting L-BFGS Optimization (Dim: 152) ---
+Initial Best Score: -608.1390 (CLL)
+------------------------------
+------------------------------
+Optimization Success!
+Total Iterations: 18
+Final Best Score: -10.9903 (CLL)
+3 fold 100.00%
+--- Starting L-BFGS Optimization (Dim: 152) ---
+Initial Best Score: -618.6177 (CLL)
+------------------------------
+------------------------------
+Optimization Success!
+Total Iterations: 18
+Final Best Score: -14.3558 (CLL)
+4 fold 95.83%
+--- Starting L-BFGS Optimization (Dim: 152) ---
+Initial Best Score: -576.4236 (CLL)
+------------------------------
+------------------------------
+Optimization Success!
+Total Iterations: 18
+Final Best Score: -13.6761 (CLL)
+5 fold 97.92%
+--- Starting L-BFGS Optimization (Dim: 152) ---
+Initial Best Score: -574.4991 (CLL)
+------------------------------
+------------------------------
+Optimization Success!
+Total Iterations: 18
+Final Best Score: -11.7443 (CLL)
+6 fold 96.88%
+--- Starting L-BFGS Optimization (Dim: 152) ---
+Initial Best Score: -619.7100 (CLL)
+------------------------------
+------------------------------
+Optimization Success!
+Total Iterations: 30
+Final Best Score: -6.2531 (CLL)
+7 fold 97.92%
+--- Starting L-BFGS Optimization (Dim: 152) ---
+Initial Best Score: -608.0003 (CLL)
+------------------------------
+------------------------------
+Optimization Success!
+Total Iterations: 17
+Final Best Score: -13.9107 (CLL)
+8 fold 94.79%
+--- Starting L-BFGS Optimization (Dim: 152) ---
+Initial Best Score: -583.0136 (CLL)
+------------------------------
+------------------------------
+Optimization Success!
+Total Iterations: 29
+Final Best Score: -6.3512 (CLL)
+9 fold 98.95%
+--- Starting L-BFGS Optimization (Dim: 152) ---
+Initial Best Score: -613.6873 (CLL)
+------------------------------
+------------------------------
+Optimization Success!
+Total Iterations: 19
+Final Best Score: -11.9860 (CLL)
+10 fold 98.95%
+
+average 97.71%
+Successfully finished TicTacToe - L-BFGS (Gradient).
+Saved to: results_TicTacToeNAIVE_LBFGS.txt
+Elapsed time: 0.91 minutes
+
+
+All scheduled experiments have been processed.

@@ -1,0 +1,14 @@
+Gradient-Based Results for datasets/AustralianDisc.csv using LBFGSOptimizerWrapper
+------------------------------------------------
+1 fold 86.96%
+2 fold 89.86%
+3 fold 88.41%
+4 fold 81.16%
+5 fold 89.86%
+6 fold 88.41%
+7 fold 89.86%
+8 fold 79.71%
+9 fold 88.41%
+10 fold 89.86%
+------------------------------------------------
+average 87.25%

@@ -1,14 +1,14 @@
-Gradient-Based Results for datasets/AustralianDisc.csv using LBFGSOptimizerWrapper
+Results for datasets/AustralianDisc.csv using HookeJeevesOptimizer
 ------------------------------------------------
-1 fold 84.06%
+1 fold 82.61%
 2 fold 88.41%
 3 fold 85.51%
 4 fold 82.61%
-5 fold 88.41%
+5 fold 92.75%
 6 fold 88.41%
-7 fold 89.86%
+7 fold 85.51%
 8 fold 81.16%
 9 fold 85.51%
-10 fold 91.30%
+10 fold 88.41%
 ------------------------------------------------
-average 86.52%
+average 86.09%

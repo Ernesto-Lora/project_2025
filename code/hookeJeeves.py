@@ -55,6 +55,7 @@ class HookeJeevesOptimizer:
         # Initialize points
         base_point = np.copy(start_point)
         best_score = self.func(base_point)
+        print(best_score)
         
         # Previous base point (used for Pattern Move calculation)
         prev_base_point = np.copy(base_point)
